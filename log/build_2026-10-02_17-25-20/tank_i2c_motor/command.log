@@ -1,2 +1,0 @@
-Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_motor': /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_motor -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_motor
-Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_motor' returned '1': /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_motor -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_motor

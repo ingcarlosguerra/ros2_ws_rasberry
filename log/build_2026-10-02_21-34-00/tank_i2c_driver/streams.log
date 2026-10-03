@@ -1,0 +1,101 @@
+[0.086s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[1.455s] -- The C compiler identification is GNU 13.3.0
+[2.075s] -- The CXX compiler identification is GNU 13.3.0
+[2.257s] -- Detecting C compiler ABI info
+[3.191s] -- Detecting C compiler ABI info - done
+[3.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.280s] -- Detecting C compile features
+[3.284s] -- Detecting C compile features - done
+[3.385s] -- Detecting CXX compiler ABI info
+[4.338s] -- Detecting CXX compiler ABI info - done
+[4.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.425s] -- Detecting CXX compile features
+[4.429s] -- Detecting CXX compile features - done
+[4.478s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.874s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.174s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.775s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.979s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.459s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.513s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.443s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.586s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.766s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.646s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[12.012s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[12.296s] -- Found tf2: 0.36.22 (/opt/ros/jazzy/share/tf2/cmake)
+[12.370s] -- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[14.629s] -- Configuring done (14.5s)
+[14.805s] -- Generating done (0.1s)
+[14.853s] -- Build files have been written to: /home/carlos/ros2_ws/build/tank_i2c_driver
+[14.936s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[14.950s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[15.407s] [ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_driver_node.dir/src/tank_i2c_driver.cpp.o[0m
+[37.486s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[37.490s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[37.491s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+[37.492s]                  from [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1[m[K:
+[37.494s] [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:[m[K In member function ‘[01m[Kvoid TankI2CDriver::[01;32m[Kpublish_odometry[m[K(double, double)[m[K’:
+[37.495s] [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[37.496s]  1181 |             [01;35m[K"ENC L=%d R=%d | "[m[K
+[37.497s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[37.498s]  1182 | [01;35m[K            "dL=%.5f dR=%.5f | "[m[K
+[37.499s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[37.501s]  1183 | [01;35m[K            "x=%.3f y=%.3f theta=%.3f"[m[K,
+[37.502s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[37.503s]  1184 |             [32m[Kdelta_left_m[m[K,
+[37.504s]       |             [32m[K~~~~~~~~~~~~[m[K
+[37.505s]       |             [32m[K|[m[K
+[37.507s]       |             [32m[Kdouble[m[K
+[37.508s] [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[37.509s]  1181 |             "ENC L=[01;36m[K%d[m[K R=%d | "
+[37.511s]       |                    [01;36m[K~^[m[K
+[37.512s]       |                     [01;36m[K|[m[K
+[37.513s]       |                     [01;36m[Kint[m[K
+[37.514s]       |                    [32m[K%f[m[K
+[37.515s] [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[37.516s]  1181 |             [01;35m[K"ENC L=%d R=%d | "[m[K
+[37.517s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[37.518s]  1182 | [01;35m[K            "dL=%.5f dR=%.5f | "[m[K
+[37.519s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[37.520s]  1183 | [01;35m[K            "x=%.3f y=%.3f theta=%.3f"[m[K,
+[37.521s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[37.522s]  1184 |             delta_left_m,
+[37.523s]  1185 |             [32m[Kdelta_right_m[m[K,
+[37.525s]       |             [32m[K~~~~~~~~~~~~~[m[K
+[37.526s]       |             [32m[K|[m[K
+[37.526s]       |             [32m[Kdouble[m[K
+[37.527s] [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:26:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[37.528s]  1181 |             "ENC L=%d R=[01;36m[K%d[m[K | "
+[37.528s]       |                         [01;36m[K~^[m[K
+[37.529s]       |                          [01;36m[K|[m[K
+[37.530s]       |                          [01;36m[Kint[m[K
+[37.530s]       |                         [32m[K%f[m[K
+[119.187s] [100%] [32m[1mLinking CXX executable tank_i2c_driver_node[0m
+[125.053s] [100%] Built target tank_i2c_driver_node
+[125.740s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[126.291s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[126.475s] -- Install configuration: ""
+[126.488s] -- Execute custom install script
+[126.494s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/lib/tank_i2c_driver/tank_i2c_driver_node
+[126.589s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/config/tank.yaml
+[126.680s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/launch/tank.launch.py
+[126.764s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/package_run_dependencies/tank_i2c_driver
+[126.849s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/parent_prefix_path/tank_i2c_driver
+[126.968s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.sh
+[127.051s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.dsv
+[127.133s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.sh
+[127.213s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.dsv
+[127.294s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.bash
+[127.374s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.sh
+[127.457s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.zsh
+[127.539s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.dsv
+[127.621s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv
+[127.709s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/packages/tank_i2c_driver
+[127.803s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig.cmake
+[127.893s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig-version.cmake
+[127.975s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.xml
+[128.089s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver

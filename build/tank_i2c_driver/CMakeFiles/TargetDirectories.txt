@@ -1,0 +1,10 @@
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/uninstall.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/tank_i2c_driver_uninstall.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/tank_i2c_driver_node.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/test.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/edit_cache.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/rebuild_cache.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/list_install_components.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/install.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/install/local.dir
+/home/carlos/ros2_ws/build/tank_i2c_driver/CMakeFiles/install/strip.dir

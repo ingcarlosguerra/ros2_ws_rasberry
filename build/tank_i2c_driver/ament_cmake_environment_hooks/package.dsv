@@ -1,0 +1,4 @@
+source;share/tank_i2c_driver/local_setup.bash
+source;share/tank_i2c_driver/local_setup.dsv
+source;share/tank_i2c_driver/local_setup.sh
+source;share/tank_i2c_driver/local_setup.zsh
