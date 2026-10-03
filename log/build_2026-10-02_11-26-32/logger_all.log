@@ -1,0 +1,149 @@
+[1.372s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'mentorpi_i2c_motor']
+[1.372s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mentorpi_i2c_motor'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff93973080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff93b2fa10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff93b2fa10>>, mixin_verb=('build',))
+[1.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.911s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carlos/ros2_ws'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extensions ['ignore', 'ignore_ament_install']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extension 'ignore_ament_install'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extensions ['colcon_pkg']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extension 'colcon_pkg'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extensions ['colcon_meta']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extension 'colcon_meta'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/mentorpi_i2c_motor) by extension 'ros'
+[2.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mentorpi_i2c_motor' with type 'ros.ament_cmake' and name 'mentorpi_i2c_motor'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.482s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros'
+[2.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/carlos/ros2_ws/install
+[2.529s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/jazzy
+[2.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.870s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_args' from command line to 'None'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_target' from command line to 'None'
+[2.876s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.876s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.876s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_clean_first' from command line to 'False'
+[2.877s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'cmake_force_configure' from command line to 'False'
+[2.877s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'ament_cmake_args' from command line to 'None'
+[2.877s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.877s] Level 5:colcon.colcon_core.verb:set package 'mentorpi_i2c_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.877s] DEBUG:colcon.colcon_core.verb:Building package 'mentorpi_i2c_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/mentorpi_i2c_motor', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/mentorpi_i2c_motor', 'symlink_install': True, 'test_result_base': None}
+[2.878s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carlos/ros2_ws/src/mentorpi_i2c_motor' with build type 'ament_cmake'
+[2.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carlos/ros2_ws/src/mentorpi_i2c_motor'
+[2.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[4.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[4.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+[5.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mentorpi_i2c_motor)
+[5.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor' for CMake module files
+[5.160s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor' for CMake config files
+[5.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('mentorpi_i2c_motor', 'cmake_prefix_path')
+[5.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.ps1'
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.dsv'
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.sh'
+[5.185s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/bin'
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/pkgconfig/mentorpi_i2c_motor.pc'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/python3.12/site-packages'
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/bin'
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.ps1'
+[5.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.dsv'
+[5.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.sh'
+[5.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.bash'
+[5.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.zsh'
+[5.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/colcon-core/packages/mentorpi_i2c_motor)
+[5.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mentorpi_i2c_motor)
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor' for CMake module files
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor' for CMake config files
+[5.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('mentorpi_i2c_motor', 'cmake_prefix_path')
+[5.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.dsv'
+[5.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/hook/cmake_prefix_path.sh'
+[5.259s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib'
+[5.260s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/bin'
+[5.261s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/pkgconfig/mentorpi_i2c_motor.pc'
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/python3.12/site-packages'
+[5.266s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/bin'
+[5.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.ps1'
+[5.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.dsv'
+[5.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.sh'
+[5.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.bash'
+[5.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.zsh'
+[5.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/colcon-core/packages/mentorpi_i2c_motor)
+[5.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.293s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.295s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.297s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.ps1'
+[5.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_ps1.py'
+[5.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.ps1'
+[5.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.sh'
+[5.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_sh.py'
+[5.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.sh'
+[5.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.bash'
+[5.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.bash'
+[5.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.zsh'
+[5.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.zsh'

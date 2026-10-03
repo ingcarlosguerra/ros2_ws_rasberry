@@ -1,0 +1,19 @@
+mentorpi_i2c_motor_node:
+
+  ros__parameters:
+
+    wheel_diameter: 0.050
+
+    wheel_separation: 0.100
+
+    encoder_ticks_per_rev: 1980.0
+
+    max_linear_speed: 0.30
+
+    i2c_device: "/dev/i2c-1"
+
+    left_motor_sign: -1
+
+    right_motor_sign: -1
+
+    cmd_timeout: 0.5

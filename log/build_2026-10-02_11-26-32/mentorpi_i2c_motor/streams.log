@@ -1,0 +1,23 @@
+[0.123s] Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[1.827s] [100%] Built target mentorpi_i2c_motor_node
+[1.916s] Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[2.015s] Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+[2.079s] -- Install configuration: ""
+[2.084s] -- Execute custom install script
+[2.089s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/mentorpi_i2c_motor/mentorpi_i2c_motor_node
+[2.091s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/package_run_dependencies/mentorpi_i2c_motor
+[2.095s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/parent_prefix_path/mentorpi_i2c_motor
+[2.099s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.sh
+[2.101s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.dsv
+[2.104s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.sh
+[2.106s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.dsv
+[2.109s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.bash
+[2.112s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.sh
+[2.115s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.zsh
+[2.117s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.dsv
+[2.118s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.dsv
+[2.196s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/packages/mentorpi_i2c_motor
+[2.201s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig.cmake
+[2.204s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig-version.cmake
+[2.206s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.xml
+[2.220s] Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor

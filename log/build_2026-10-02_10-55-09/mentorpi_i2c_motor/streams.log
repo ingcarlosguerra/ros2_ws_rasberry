@@ -1,0 +1,61 @@
+[0.105s] Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/mentorpi_i2c_motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mentorpi_i2c_motor
+[2.661s] -- The C compiler identification is GNU 13.3.0
+[4.233s] -- The CXX compiler identification is GNU 13.3.0
+[4.431s] -- Detecting C compiler ABI info
+[5.400s] -- Detecting C compiler ABI info - done
+[5.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.487s] -- Detecting C compile features
+[5.491s] -- Detecting C compile features - done
+[5.592s] -- Detecting CXX compiler ABI info
+[6.506s] -- Detecting CXX compiler ABI info - done
+[6.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.592s] -- Detecting CXX compile features
+[6.596s] -- Detecting CXX compile features - done
+[6.644s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.956s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.181s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.746s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.935s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[10.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.335s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[11.381s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[12.312s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[12.452s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[12.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.467s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[13.880s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[14.159s] -- Found tf2: 0.36.22 (/opt/ros/jazzy/share/tf2/cmake)
+[14.226s] -- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[15.597s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.443s] -- Configuring done (15.6s)
+[16.615s] -- Generating done (0.1s)
+[16.653s] -- Build files have been written to: /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+[16.737s] Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/mentorpi_i2c_motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mentorpi_i2c_motor
+[16.750s] Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[17.196s] [ 33%] [32mBuilding CXX object CMakeFiles/mentorpi_i2c_motor_node.dir/src/mentorpi_i2c_motor_node.cpp.o[0m
+[17.201s] [ 66%] [32mBuilding CXX object CMakeFiles/mentorpi_i2c_motor_node.dir/src/hiwonder_emm.cpp.o[0m
+[102.175s] [100%] [32m[1mLinking CXX executable mentorpi_i2c_motor_node[0m
+[108.280s] [100%] Built target mentorpi_i2c_motor_node
+[108.876s] Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+[109.459s] Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+[109.593s] -- Install configuration: ""
+[109.601s] -- Execute custom install script
+[109.616s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/lib/mentorpi_i2c_motor/mentorpi_i2c_motor_node
+[109.700s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/package_run_dependencies/mentorpi_i2c_motor
+[109.781s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/parent_prefix_path/mentorpi_i2c_motor
+[109.865s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.sh
+[109.947s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.dsv
+[110.026s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.sh
+[110.103s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.dsv
+[110.180s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.bash
+[110.256s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.sh
+[110.334s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.zsh
+[110.411s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.dsv
+[110.489s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.dsv
+[110.569s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/packages/mentorpi_i2c_motor
+[110.651s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig.cmake
+[110.728s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig-version.cmake
+[110.809s] -- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.xml
+[110.934s] Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor

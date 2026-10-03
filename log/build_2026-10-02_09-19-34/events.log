@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000814] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001371] (mentorpi_i2c_motor) JobQueued: {'identifier': 'mentorpi_i2c_motor', 'dependencies': OrderedDict()}
+[0.003371] (mentorpi_i2c_motor) JobStarted: {'identifier': 'mentorpi_i2c_motor'}
+[0.066798] (mentorpi_i2c_motor) JobProgress: {'identifier': 'mentorpi_i2c_motor', 'progress': 'cmake'}
+[0.071000] (mentorpi_i2c_motor) Command: {'cmd': ['/usr/bin/cmake', '/home/carlos/ros2_ws/src/mentorpi_i2c_motor', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mentorpi_i2c_motor'], 'cwd': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 48480 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src/mentorpi_i2c_motor', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 48480 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy'}), 'shell': False}
+[0.098638] (-) TimerEvent: {}
+[0.199717] (-) TimerEvent: {}
+[0.300710] (-) TimerEvent: {}
+[0.401746] (-) TimerEvent: {}
+[0.503090] (-) TimerEvent: {}
+[0.604279] (-) TimerEvent: {}
+[0.637968] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.704589] (-) TimerEvent: {}
+[0.805597] (-) TimerEvent: {}
+[0.906592] (-) TimerEvent: {}
+[1.007580] (-) TimerEvent: {}
+[1.108691] (-) TimerEvent: {}
+[1.194705] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.208962] (-) TimerEvent: {}
+[1.310150] (-) TimerEvent: {}
+[1.345598] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.410443] (-) TimerEvent: {}
+[1.511574] (-) TimerEvent: {}
+[1.612613] (-) TimerEvent: {}
+[1.713741] (-) TimerEvent: {}
+[1.814733] (-) TimerEvent: {}
+[1.915881] (-) TimerEvent: {}
+[2.016940] (-) TimerEvent: {}
+[2.118000] (-) TimerEvent: {}
+[2.173560] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.218282] (-) TimerEvent: {}
+[2.254533] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.256443] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.259735] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.318637] (-) TimerEvent: {}
+[2.347124] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.418888] (-) TimerEvent: {}
+[2.519958] (-) TimerEvent: {}
+[2.621064] (-) TimerEvent: {}
+[2.722202] (-) TimerEvent: {}
+[2.823285] (-) TimerEvent: {}
+[2.924545] (-) TimerEvent: {}
+[3.025655] (-) TimerEvent: {}
+[3.126811] (-) TimerEvent: {}
+[3.228018] (-) TimerEvent: {}
+[3.253845] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.328250] (-) TimerEvent: {}
+[3.337067] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.339304] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.343231] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.381066] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.428566] (-) TimerEvent: {}
+[3.529569] (-) TimerEvent: {}
+[3.630608] (-) TimerEvent: {}
+[3.731667] (-) TimerEvent: {}
+[3.832672] (-) TimerEvent: {}
+[3.933716] (-) TimerEvent: {}
+[4.034869] (-) TimerEvent: {}
+[4.135862] (-) TimerEvent: {}
+[4.236928] (-) TimerEvent: {}
+[4.337963] (-) TimerEvent: {}
+[4.439085] (-) TimerEvent: {}
+[4.540206] (-) TimerEvent: {}
+[4.641324] (-) TimerEvent: {}
+[4.686663] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.741597] (-) TimerEvent: {}
+[4.842587] (-) TimerEvent: {}
+[4.943567] (-) TimerEvent: {}
+[5.044546] (-) TimerEvent: {}
+[5.145426] (-) TimerEvent: {}
+[5.246657] (-) TimerEvent: {}
+[5.325628] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.346865] (-) TimerEvent: {}
+[5.447803] (-) TimerEvent: {}
+[5.548683] (-) TimerEvent: {}
+[5.649645] (-) TimerEvent: {}
+[5.704612] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.749864] (-) TimerEvent: {}
+[5.850867] (-) TimerEvent: {}
+[5.951724] (-) TimerEvent: {}
+[6.052700] (-) TimerEvent: {}
+[6.153673] (-) TimerEvent: {}
+[6.254637] (-) TimerEvent: {}
+[6.355666] (-) TimerEvent: {}
+[6.456731] (-) TimerEvent: {}
+[6.521427] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Configuring done (6.4s)\n'}
+[6.557094] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.558180] (-) TimerEvent: {}
+[6.572026] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Build files have been written to: /home/carlos/ros2_ws/build/mentorpi_i2c_motor\n'}
+[6.612373] (mentorpi_i2c_motor) CommandEnded: {'returncode': 0}
+[6.615311] (mentorpi_i2c_motor) JobProgress: {'identifier': 'mentorpi_i2c_motor', 'progress': 'build'}
+[6.619197] (mentorpi_i2c_motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', '--', '-j4', '-l4'], 'cwd': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 48480 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src/mentorpi_i2c_motor', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 48480 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy'}), 'shell': False}
+[6.658514] (-) TimerEvent: {}
+[6.759589] (-) TimerEvent: {}
+[6.860631] (-) TimerEvent: {}
+[6.945560] (mentorpi_i2c_motor) CommandEnded: {'returncode': 0}
+[6.949663] (mentorpi_i2c_motor) JobProgress: {'identifier': 'mentorpi_i2c_motor', 'progress': 'install'}
+[6.960900] (-) TimerEvent: {}
+[7.023912] (mentorpi_i2c_motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carlos/ros2_ws/build/mentorpi_i2c_motor'], 'cwd': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 48480 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src/mentorpi_i2c_motor', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/mentorpi_i2c_motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 48480 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/mentorpi_i2c_motor:/opt/ros/jazzy'}), 'shell': False}
+[7.061166] (-) TimerEvent: {}
+[7.090793] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.094159] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.097192] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/package_run_dependencies/mentorpi_i2c_motor\n'}
+[7.161458] (-) TimerEvent: {}
+[7.174307] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/parent_prefix_path/mentorpi_i2c_motor\n'}
+[7.250804] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.sh\n'}
+[7.261727] (-) TimerEvent: {}
+[7.329369] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/ament_prefix_path.dsv\n'}
+[7.362013] (-) TimerEvent: {}
+[7.406458] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.sh\n'}
+[7.462258] (-) TimerEvent: {}
+[7.484005] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/environment/path.dsv\n'}
+[7.560206] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.bash\n'}
+[7.562419] (-) TimerEvent: {}
+[7.635212] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.sh\n'}
+[7.662707] (-) TimerEvent: {}
+[7.712239] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.zsh\n'}
+[7.762946] (-) TimerEvent: {}
+[7.790720] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/local_setup.dsv\n'}
+[7.863219] (-) TimerEvent: {}
+[7.866542] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.dsv\n'}
+[7.944025] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/ament_index/resource_index/packages/mentorpi_i2c_motor\n'}
+[7.963540] (-) TimerEvent: {}
+[8.022791] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig.cmake\n'}
+[8.063719] (-) TimerEvent: {}
+[8.100395] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/cmake/mentorpi_i2c_motorConfig-version.cmake\n'}
+[8.163994] (-) TimerEvent: {}
+[8.176711] (mentorpi_i2c_motor) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/mentorpi_i2c_motor/share/mentorpi_i2c_motor/package.xml\n'}
+[8.264304] (-) TimerEvent: {}
+[8.266724] (mentorpi_i2c_motor) CommandEnded: {'returncode': 0}
+[8.364615] (-) TimerEvent: {}
+[8.399996] (mentorpi_i2c_motor) JobEnded: {'identifier': 'mentorpi_i2c_motor', 'rc': 0}
+[8.404648] (-) EventReactorShutdown: {}

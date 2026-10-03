@@ -1,0 +1,4 @@
+source;share/mentorpi_i2c_motor/local_setup.bash
+source;share/mentorpi_i2c_motor/local_setup.dsv
+source;share/mentorpi_i2c_motor/local_setup.sh
+source;share/mentorpi_i2c_motor/local_setup.zsh

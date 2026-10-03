@@ -1,0 +1,35 @@
+tank_i2c_motor:
+  ros__parameters:
+
+    # I2C
+    i2c_device: "/dev/i2c-1"
+    i2c_address: 52
+
+    # Velocidad maxima del robot
+    max_linear_speed: 0.30
+
+    # Velocidad angular maxima
+    max_angular_speed: 6.0
+
+    # Valor maximo del controlador
+    max_motor_speed: 50
+
+    # Distancia entre centros de los tracks
+    # 10 cm
+    track_width: 0.10
+
+    # Diametro de rueda
+    # 50 mm
+    wheel_diameter: 0.05
+
+    # Polaridad de los motores
+    #
+    # M1 = track izquierdo
+    # M2 = track derecho
+    #
+    # 1  = normal
+    # -1 = invertido
+
+    left_motor_sign: 1
+    right_motor_sign: 1
+

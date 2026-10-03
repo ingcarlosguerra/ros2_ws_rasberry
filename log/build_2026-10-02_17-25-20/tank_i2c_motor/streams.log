@@ -1,0 +1,55 @@
+[0.099s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_motor': /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_motor -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_motor
+[2.509s] -- The C compiler identification is GNU 13.3.0
+[4.097s] -- The CXX compiler identification is GNU 13.3.0
+[4.293s] -- Detecting C compiler ABI info
+[5.252s] -- Detecting C compiler ABI info - done
+[5.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.338s] -- Detecting C compile features
+[5.342s] -- Detecting C compile features - done
+[5.439s] -- Detecting CXX compiler ABI info
+[6.356s] -- Detecting CXX compiler ABI info - done
+[6.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.442s] -- Detecting CXX compile features
+[6.446s] -- Detecting CXX compile features - done
+[6.530s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.837s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.035s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.627s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.813s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[10.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.291s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[11.333s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[12.291s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[12.438s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[12.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.516s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[14.474s] Error parsing '/home/carlos/ros2_ws/src/tank_i2c_motor/package.xml':
+[57.237s] Traceback (most recent call last):
+[57.240s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[57.242s]     main()
+[57.243s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[57.244s]     raise e
+[57.245s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[57.246s]     package = parse_package_string(
+[57.247s]               ^^^^^^^^^^^^^^^^^^^^^
+[57.247s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[57.248s]     pkg.validate(warnings=warnings)
+[57.249s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[57.250s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[57.251s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/carlos/ros2_ws/src/tank_i2c_motor/package.xml':
+[57.252s] Invalid email "robot@localhost" for person "robot"
+[57.661s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[57.662s]   execute_process(/usr/bin/python3
+[57.664s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[57.665s]   /home/carlos/ros2_ws/src/tank_i2c_motor/package.xml
+[57.666s]   /home/carlos/ros2_ws/build/tank_i2c_motor/ament_cmake_core/package.cmake)
+[57.666s]   returned error code 1
+[57.667s] Call Stack (most recent call first):
+[57.668s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[57.669s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[57.670s]   CMakeLists.txt:40 (ament_package)
+[57.671s] 
+[57.672s] [0m
+[57.673s] -- Configuring incomplete, errors occurred!
+[57.741s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_motor' returned '1': /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_motor -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_motor

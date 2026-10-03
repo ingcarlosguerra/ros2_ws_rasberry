@@ -1,0 +1,91 @@
+cmake_minimum_required(VERSION 3.8)
+
+project(mentorpi_i2c_motor)
+
+
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+
+  add_compile_options(
+    -Wall
+    -Wextra
+    -Wpedantic
+  )
+
+endif()
+
+
+find_package(ament_cmake REQUIRED)
+
+find_package(rclcpp REQUIRED)
+
+find_package(geometry_msgs REQUIRED)
+
+find_package(nav_msgs REQUIRED)
+
+find_package(tf2 REQUIRED)
+
+find_package(tf2_ros REQUIRED)
+
+
+include_directories(
+  include
+)
+
+
+add_executable(
+  mentorpi_i2c_motor_node
+
+  src/mentorpi_i2c_motor_node.cpp
+
+  src/hiwonder_emm.cpp
+)
+
+
+ament_target_dependencies(
+  mentorpi_i2c_motor_node
+
+  rclcpp
+
+  geometry_msgs
+
+  nav_msgs
+
+  tf2
+
+  tf2_ros
+)
+
+
+install(
+  TARGETS
+    mentorpi_i2c_motor_node
+
+  DESTINATION
+    lib/${PROJECT_NAME}
+)
+
+
+install(
+  DIRECTORY
+    include/
+
+  DESTINATION
+    include/
+)
+
+
+install(
+  DIRECTORY
+    config/
+
+  DESTINATION
+    share/${PROJECT_NAME}/config
+)
+
+
+ament_package()

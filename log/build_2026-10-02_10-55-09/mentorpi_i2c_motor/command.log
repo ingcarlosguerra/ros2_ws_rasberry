@@ -1,0 +1,6 @@
+Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/mentorpi_i2c_motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mentorpi_i2c_motor
+Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/mentorpi_i2c_motor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mentorpi_i2c_motor
+Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mentorpi_i2c_motor -- -j4 -l4
+Invoking command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor
+Invoked command in '/home/carlos/ros2_ws/build/mentorpi_i2c_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mentorpi_i2c_motor

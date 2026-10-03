@@ -1,0 +1,27 @@
+[0.113s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_motor -- -j4 -l4
+[1.037s] [ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_motor_node.dir/src/tank_i2c_motor.cpp.o[0m
+[71.473s] [100%] [32m[1mLinking CXX executable tank_i2c_motor_node[0m
+[76.616s] [100%] Built target tank_i2c_motor_node
+[76.815s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_motor -- -j4 -l4
+[76.994s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_motor
+[77.088s] -- Install configuration: ""
+[77.096s] -- Execute custom install script
+[77.105s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/lib/tank_i2c_motor/tank_i2c_motor_node
+[77.121s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/config/tank.yaml
+[77.130s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/launch/tank_i2c.launch.py
+[77.139s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/ament_index/resource_index/package_run_dependencies/tank_i2c_motor
+[77.145s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/ament_index/resource_index/parent_prefix_path/tank_i2c_motor
+[77.164s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/environment/ament_prefix_path.sh
+[77.170s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/environment/ament_prefix_path.dsv
+[77.175s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/environment/path.sh
+[77.178s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/environment/path.dsv
+[77.182s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/local_setup.bash
+[77.185s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/local_setup.sh
+[77.188s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/local_setup.zsh
+[77.191s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/local_setup.dsv
+[77.193s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/package.dsv
+[77.277s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/ament_index/resource_index/packages/tank_i2c_motor
+[77.282s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/cmake/tank_i2c_motorConfig.cmake
+[77.285s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/cmake/tank_i2c_motorConfig-version.cmake
+[77.288s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_motor/share/tank_i2c_motor/package.xml
+[77.313s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_motor
