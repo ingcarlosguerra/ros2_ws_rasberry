@@ -1,8 +1,0 @@
-source;share/tank_i2c_odom/hook/cmake_prefix_path.ps1
-source;share/tank_i2c_odom/hook/cmake_prefix_path.dsv
-source;share/tank_i2c_odom/hook/cmake_prefix_path.sh
-source;share/tank_i2c_odom/local_setup.bash
-source;share/tank_i2c_odom/local_setup.dsv
-source;share/tank_i2c_odom/local_setup.ps1
-source;share/tank_i2c_odom/local_setup.sh
-source;share/tank_i2c_odom/local_setup.zsh

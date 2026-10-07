@@ -1,0 +1,78 @@
+[0.309s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/ros2_mpu6050
+[3.682s] -- The C compiler identification is GNU 13.3.0
+[5.876s] -- The CXX compiler identification is GNU 13.3.0
+[6.133s] -- Detecting C compiler ABI info
+[7.841s] -- Detecting C compiler ABI info - done
+[7.975s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.976s] -- Detecting C compile features
+[7.985s] -- Detecting C compile features - done
+[8.147s] -- Detecting CXX compiler ABI info
+[10.058s] -- Detecting CXX compiler ABI info - done
+[10.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.305s] -- Detecting CXX compile features
+[10.318s] -- Detecting CXX compile features - done
+[10.386s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[12.941s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.960s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[15.746s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[15.985s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[16.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.819s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[17.879s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[19.131s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.327s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[19.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.739s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[23.159s] -- Configuring done (22.2s)
+[23.388s] -- Generating done (0.1s)
+[23.447s] -- Build files have been written to: /home/carlos/ros2_ws/build/ros2_mpu6050
+[23.588s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/ros2_mpu6050
+[23.600s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4
+[24.599s] [ 12%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o[0m
+[24.617s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o[0m
+[24.716s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o[0m
+[24.749s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o[0m
+[27.887s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K,
+[27.897s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[27.899s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:11:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[27.921s]    11 | #include [01;31m[K<i2c/smbus.h>[m[K
+[27.922s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[27.934s] compilation terminated.
+[27.949s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_hal.cpp:1[m[K:
+[27.968s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:11:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[27.980s]    11 | #include [01;31m[K<i2c/smbus.h>[m[K
+[27.982s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[27.996s] compilation terminated.
+[28.008s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K,
+[28.009s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[28.018s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:11:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[28.019s]    11 | #include [01;31m[K<i2c/smbus.h>[m[K
+[28.030s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[28.032s] compilation terminated.
+[28.043s] gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:90: CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o] Error 1
+[28.054s] gmake[2]: *** Waiting for unfinished jobs....
+[28.055s] gmake[2]: *** [CMakeFiles/ros2_mpu6050_calibrate.dir/build.make:76: CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o] Error 1
+[28.067s] gmake[2]: *** Waiting for unfinished jobs....
+[28.068s] gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:76: CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o] Error 1
+[28.139s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K,
+[28.140s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_node.h:4[m[K,
+[28.166s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_node.cpp:1[m[K:
+[28.171s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:11:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[28.177s]    11 | #include [01;31m[K<i2c/smbus.h>[m[K
+[28.183s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[28.185s] compilation terminated.
+[28.194s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o[0m
+[28.203s] gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:104: CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o] Error 1
+[28.205s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_mpu6050.dir/all] Error 2
+[28.213s] gmake[1]: *** Waiting for unfinished jobs....
+[29.137s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_hal.cpp:1[m[K:
+[29.145s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:11:10:[m[K [01;31m[Kfatal error: [m[Ki2c/smbus.h: No such file or directory
+[29.152s]    11 | #include [01;31m[K<i2c/smbus.h>[m[K
+[29.162s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[29.164s] compilation terminated.
+[29.173s] gmake[2]: *** [CMakeFiles/ros2_mpu6050_calibrate.dir/build.make:90: CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o] Error 1
+[29.183s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ros2_mpu6050_calibrate.dir/all] Error 2
+[29.184s] gmake: *** [Makefile:146: all] Error 2
+[29.243s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4

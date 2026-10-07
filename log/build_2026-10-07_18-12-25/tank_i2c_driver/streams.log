@@ -1,0 +1,27 @@
+[0.120s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[1.210s] [ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_driver_node.dir/src/tank_i2c_driver.cpp.o[0m
+[142.849s] [100%] [32m[1mLinking CXX executable tank_i2c_driver_node[0m
+[149.322s] [100%] Built target tank_i2c_driver_node
+[150.230s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[150.809s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[150.965s] -- Install configuration: ""
+[150.974s] -- Execute custom install script
+[150.984s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/lib/tank_i2c_driver/tank_i2c_driver_node
+[151.010s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/config/tank.yaml
+[151.018s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/launch/tank.launch.py
+[151.028s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/package_run_dependencies/tank_i2c_driver
+[151.034s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/parent_prefix_path/tank_i2c_driver
+[151.052s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.sh
+[151.058s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.dsv
+[151.062s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.sh
+[151.065s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.dsv
+[151.069s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.bash
+[151.072s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.sh
+[151.076s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.zsh
+[151.079s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.dsv
+[151.081s] -- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv
+[151.173s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/packages/tank_i2c_driver
+[151.178s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig.cmake
+[151.182s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig-version.cmake
+[151.184s] -- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.xml
+[151.220s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver

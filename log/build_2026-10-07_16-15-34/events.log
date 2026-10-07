@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.001643] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003169] (-) JobUnselected: {'identifier': 'tank_i2c_driver'}
+[0.004157] (-) JobUnselected: {'identifier': 'tank_i2c_motor'}
+[0.004331] (-) JobUnselected: {'identifier': 'tank_i2c_odom'}
+[0.004472] (ros2_mpu6050) JobQueued: {'identifier': 'ros2_mpu6050', 'dependencies': OrderedDict()}
+[0.004629] (ros2_mpu6050) JobStarted: {'identifier': 'ros2_mpu6050'}
+[0.090926] (ros2_mpu6050) JobProgress: {'identifier': 'ros2_mpu6050', 'progress': 'cmake'}
+[0.098827] (-) TimerEvent: {}
+[0.103064] (ros2_mpu6050) Command: {'cmd': ['/usr/bin/cmake', '/home/carlos/ros2_ws/src/ros2_mpu6050', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/ros2_mpu6050'], 'cwd': '/home/carlos/ros2_ws/build/ros2_mpu6050', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 43412 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/ros2_mpu6050', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 43412 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.199112] (-) TimerEvent: {}
+[0.266655] (ros2_mpu6050) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299354] (-) TimerEvent: {}
+[0.400372] (-) TimerEvent: {}
+[0.501428] (-) TimerEvent: {}
+[0.602626] (-) TimerEvent: {}
+[0.703657] (-) TimerEvent: {}
+[0.804774] (-) TimerEvent: {}
+[0.905872] (-) TimerEvent: {}
+[1.006883] (-) TimerEvent: {}
+[1.107900] (-) TimerEvent: {}
+[1.208944] (-) TimerEvent: {}
+[1.309895] (-) TimerEvent: {}
+[1.410904] (-) TimerEvent: {}
+[1.511958] (-) TimerEvent: {}
+[1.612988] (-) TimerEvent: {}
+[1.714191] (-) TimerEvent: {}
+[1.815500] (-) TimerEvent: {}
+[1.916464] (-) TimerEvent: {}
+[2.017440] (-) TimerEvent: {}
+[2.118576] (-) TimerEvent: {}
+[2.175896] (ros2_mpu6050) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.218905] (-) TimerEvent: {}
+[2.305148] (ros2_mpu6050) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.319078] (-) TimerEvent: {}
+[2.420018] (-) TimerEvent: {}
+[2.521019] (-) TimerEvent: {}
+[2.622032] (-) TimerEvent: {}
+[2.635073] (ros2_mpu6050) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.722299] (-) TimerEvent: {}
+[2.750768] (ros2_mpu6050) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.822542] (-) TimerEvent: {}
+[2.893853] (ros2_mpu6050) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.922781] (-) TimerEvent: {}
+[3.023838] (-) TimerEvent: {}
+[3.064619] (ros2_mpu6050) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.124059] (-) TimerEvent: {}
+[3.225061] (-) TimerEvent: {}
+[3.326068] (-) TimerEvent: {}
+[3.427194] (-) TimerEvent: {}
+[3.528320] (-) TimerEvent: {}
+[3.629367] (-) TimerEvent: {}
+[3.730427] (-) TimerEvent: {}
+[3.743271] (ros2_mpu6050) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.765084] (ros2_mpu6050) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.830690] (-) TimerEvent: {}
+[3.931861] (-) TimerEvent: {}
+[4.033070] (-) TimerEvent: {}
+[4.134337] (-) TimerEvent: {}
+[4.235384] (-) TimerEvent: {}
+[4.336589] (-) TimerEvent: {}
+[4.343765] (ros2_mpu6050) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.436906] (-) TimerEvent: {}
+[4.537963] (-) TimerEvent: {}
+[4.639066] (-) TimerEvent: {}
+[4.740022] (-) TimerEvent: {}
+[4.841046] (-) TimerEvent: {}
+[4.942281] (-) TimerEvent: {}
+[5.011468] (ros2_mpu6050) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.042559] (-) TimerEvent: {}
+[5.143652] (-) TimerEvent: {}
+[5.244699] (-) TimerEvent: {}
+[5.345648] (-) TimerEvent: {}
+[5.446696] (-) TimerEvent: {}
+[5.547699] (-) TimerEvent: {}
+[5.648614] (-) TimerEvent: {}
+[5.749681] (-) TimerEvent: {}
+[5.850872] (-) TimerEvent: {}
+[5.951731] (-) TimerEvent: {}
+[6.052641] (-) TimerEvent: {}
+[6.153704] (-) TimerEvent: {}
+[6.255008] (-) TimerEvent: {}
+[6.356060] (-) TimerEvent: {}
+[6.371139] (ros2_mpu6050) StdoutLine: {'line': b'-- Configuring done (6.2s)\n'}
+[6.456377] (-) TimerEvent: {}
+[6.540117] (ros2_mpu6050) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.556620] (-) TimerEvent: {}
+[6.578655] (ros2_mpu6050) StdoutLine: {'line': b'-- Build files have been written to: /home/carlos/ros2_ws/build/ros2_mpu6050\n'}
+[6.635285] (ros2_mpu6050) CommandEnded: {'returncode': 0}
+[6.638678] (ros2_mpu6050) JobProgress: {'identifier': 'ros2_mpu6050', 'progress': 'build'}
+[6.648730] (ros2_mpu6050) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carlos/ros2_ws/build/ros2_mpu6050', '--', '-j4', '-l4'], 'cwd': '/home/carlos/ros2_ws/build/ros2_mpu6050', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 43412 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/ros2_mpu6050', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 43412 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[6.656863] (-) TimerEvent: {}
+[6.757916] (-) TimerEvent: {}
+[6.859010] (-) TimerEvent: {}
+[6.960089] (-) TimerEvent: {}
+[7.063427] (-) TimerEvent: {}
+[7.113643] (ros2_mpu6050) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o\x1b[0m\n'}
+[7.118538] (ros2_mpu6050) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o\x1b[0m\n'}
+[7.119882] (ros2_mpu6050) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o\x1b[0m\n'}
+[7.120961] (ros2_mpu6050) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o\x1b[0m\n'}
+[7.165067] (-) TimerEvent: {}
+[7.266629] (-) TimerEvent: {}
+[7.370048] (-) TimerEvent: {}
+[7.471161] (-) TimerEvent: {}
+[7.574439] (-) TimerEvent: {}
+[7.680174] (-) TimerEvent: {}
+[7.781733] (-) TimerEvent: {}
+[7.883334] (-) TimerEvent: {}
+[7.987124] (-) TimerEvent: {}
+[8.088325] (-) TimerEvent: {}
+[8.192446] (-) TimerEvent: {}
+[8.296555] (-) TimerEvent: {}
+[8.400085] (-) TimerEvent: {}
+[8.501463] (-) TimerEvent: {}
+[8.606149] (-) TimerEvent: {}
+[8.711607] (-) TimerEvent: {}
+[8.813472] (-) TimerEvent: {}
+[8.918251] (-) TimerEvent: {}
+[9.023610] (-) TimerEvent: {}
+[9.125600] (-) TimerEvent: {}
+[9.230638] (-) TimerEvent: {}
+[9.332324] (-) TimerEvent: {}
+[9.437519] (-) TimerEvent: {}
+[9.539235] (-) TimerEvent: {}
+[9.645196] (-) TimerEvent: {}
+[9.747103] (-) TimerEvent: {}
+[9.851576] (-) TimerEvent: {}
+[9.955599] (-) TimerEvent: {}
+[10.059218] (-) TimerEvent: {}
+[10.166192] (-) TimerEvent: {}
+[10.266010] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31\x1b[m\x1b[K:\n'}
+[10.269620] (-) TimerEvent: {}
+[10.271865] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaFsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.277233] (ros2_mpu6050) StderrLine: {'line': b'  253 |     const std::array<double, 4> \x1b[01;31m\x1b[KaFsSelVal\x1b[m\x1b[K {131, 65.5, 32.8, 16.4};\n'}
+[10.280666] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.286601] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/memory_resource.h:47\x1b[m\x1b[K,\n'}
+[10.292127] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:58\x1b[m\x1b[K,\n'}
+[10.294293] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5\x1b[m\x1b[K,\n'}
+[10.296277] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35\x1b[m\x1b[K:\n'}
+[10.298570] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.300854] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[10.303158] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.305523] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaAfsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.307682] (ros2_mpu6050) StderrLine: {'line': b'  254 |     const std::array<double, 4> \x1b[01;31m\x1b[KaAfsSelVal\x1b[m\x1b[K {16384, 8192, 4096, 2048};\n'}
+[10.310053] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.312235] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.314224] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[10.316652] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.371278] (-) TimerEvent: {}
+[10.475585] (-) TimerEvent: {}
+[10.579172] (-) TimerEvent: {}
+[10.684621] (-) TimerEvent: {}
+[10.789150] (-) TimerEvent: {}
+[10.852765] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31\x1b[m\x1b[K:\n'}
+[10.854461] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaFsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.862697] (ros2_mpu6050) StderrLine: {'line': b'  253 |     const std::array<double, 4> \x1b[01;31m\x1b[KaFsSelVal\x1b[m\x1b[K {131, 65.5, 32.8, 16.4};\n'}
+[10.869104] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.871253] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/memory_resource.h:47\x1b[m\x1b[K,\n'}
+[10.876913] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:58\x1b[m\x1b[K,\n'}
+[10.882553] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5\x1b[m\x1b[K,\n'}
+[10.888278] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35\x1b[m\x1b[K:\n'}
+[10.893640] (-) TimerEvent: {}
+[10.897238] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.900731] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[10.906110] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.911566] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaAfsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.917233] (ros2_mpu6050) StderrLine: {'line': b'  254 |     const std::array<double, 4> \x1b[01;31m\x1b[KaAfsSelVal\x1b[m\x1b[K {16384, 8192, 4096, 2048};\n'}
+[10.921738] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.923683] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.930106] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[10.935442] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.994122] (-) TimerEvent: {}
+[11.098175] (-) TimerEvent: {}
+[11.202165] (-) TimerEvent: {}
+[11.304153] (-) TimerEvent: {}
+[11.406069] (-) TimerEvent: {}
+[11.507746] (-) TimerEvent: {}
+[11.613571] (-) TimerEvent: {}
+[11.715039] (-) TimerEvent: {}
+[11.816236] (-) TimerEvent: {}
+[11.918703] (ros2_mpu6050) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_mpu6050_calibrate.dir/build.make:76: CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o] Error 1\n'}
+[11.920574] (-) TimerEvent: {}
+[11.921476] (ros2_mpu6050) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[12.018183] (ros2_mpu6050) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ros2_mpu6050_calibrate.dir/all] Error 2\n'}
+[12.019594] (ros2_mpu6050) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.020639] (-) TimerEvent: {}
+[12.060035] (ros2_mpu6050) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o\x1b[0m\n'}
+[12.081077] (ros2_mpu6050) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:76: CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o] Error 1\n'}
+[12.082216] (ros2_mpu6050) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[12.121041] (-) TimerEvent: {}
+[12.223065] (-) TimerEvent: {}
+[12.324497] (-) TimerEvent: {}
+[12.425943] (-) TimerEvent: {}
+[12.527404] (-) TimerEvent: {}
+[12.629909] (-) TimerEvent: {}
+[12.730956] (-) TimerEvent: {}
+[12.831902] (-) TimerEvent: {}
+[12.932837] (-) TimerEvent: {}
+[13.033731] (-) TimerEvent: {}
+[13.134719] (-) TimerEvent: {}
+[13.235650] (-) TimerEvent: {}
+[13.336624] (-) TimerEvent: {}
+[13.437607] (-) TimerEvent: {}
+[13.538591] (-) TimerEvent: {}
+[13.639687] (-) TimerEvent: {}
+[13.741177] (-) TimerEvent: {}
+[13.842274] (-) TimerEvent: {}
+[13.943331] (-) TimerEvent: {}
+[14.044502] (-) TimerEvent: {}
+[14.145528] (-) TimerEvent: {}
+[14.246503] (-) TimerEvent: {}
+[14.347581] (-) TimerEvent: {}
+[14.448588] (-) TimerEvent: {}
+[14.549545] (-) TimerEvent: {}
+[14.650547] (-) TimerEvent: {}
+[14.751720] (-) TimerEvent: {}
+[14.852877] (-) TimerEvent: {}
+[14.954025] (-) TimerEvent: {}
+[15.055007] (-) TimerEvent: {}
+[15.155988] (-) TimerEvent: {}
+[15.257075] (-) TimerEvent: {}
+[15.358059] (-) TimerEvent: {}
+[15.459095] (-) TimerEvent: {}
+[15.560286] (-) TimerEvent: {}
+[15.661259] (-) TimerEvent: {}
+[15.762261] (-) TimerEvent: {}
+[15.863277] (-) TimerEvent: {}
+[15.964379] (-) TimerEvent: {}
+[16.065532] (-) TimerEvent: {}
+[16.166613] (-) TimerEvent: {}
+[16.267587] (-) TimerEvent: {}
+[16.368623] (-) TimerEvent: {}
+[16.469683] (-) TimerEvent: {}
+[16.570891] (-) TimerEvent: {}
+[16.672008] (-) TimerEvent: {}
+[16.773019] (-) TimerEvent: {}
+[16.874016] (-) TimerEvent: {}
+[16.975256] (-) TimerEvent: {}
+[17.076378] (-) TimerEvent: {}
+[17.177502] (-) TimerEvent: {}
+[17.278616] (-) TimerEvent: {}
+[17.379735] (-) TimerEvent: {}
+[17.480900] (-) TimerEvent: {}
+[17.582028] (-) TimerEvent: {}
+[17.683060] (-) TimerEvent: {}
+[17.784082] (-) TimerEvent: {}
+[17.824178] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_node.h:4\x1b[m\x1b[K,\n'}
+[17.826325] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_node.cpp:1\x1b[m\x1b[K:\n'}
+[17.827380] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaFsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.828313] (ros2_mpu6050) StderrLine: {'line': b'  253 |     const std::array<double, 4> \x1b[01;31m\x1b[KaFsSelVal\x1b[m\x1b[K {131, 65.5, 32.8, 16.4};\n'}
+[17.829322] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.830365] (ros2_mpu6050) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/memory_resource.h:47\x1b[m\x1b[K,\n'}
+[17.831337] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:58\x1b[m\x1b[K,\n'}
+[17.832355] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5\x1b[m\x1b[K,\n'}
+[17.833376] (ros2_mpu6050) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35\x1b[m\x1b[K:\n'}
+[17.834347] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.835584] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[17.836622] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[17.837770] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfield \xe2\x80\x98\x1b[01m\x1b[KaAfsSelVal\x1b[m\x1b[K\xe2\x80\x99 has incomplete type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.838999] (ros2_mpu6050) StderrLine: {'line': b'  254 |     const std::array<double, 4> \x1b[01;31m\x1b[KaAfsSelVal\x1b[m\x1b[K {16384, 8192, 4096, 2048};\n'}
+[17.840036] (ros2_mpu6050) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.841043] (ros2_mpu6050) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2019:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.842113] (ros2_mpu6050) StderrLine: {'line': b' 2019 |   template<typename _Tp, size_t _Nm> struct \x1b[01;36m\x1b[Karray\x1b[m\x1b[K;\n'}
+[17.843149] (ros2_mpu6050) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[17.884362] (-) TimerEvent: {}
+[17.985472] (-) TimerEvent: {}
+[18.086587] (-) TimerEvent: {}
+[18.187681] (-) TimerEvent: {}
+[18.288900] (-) TimerEvent: {}
+[18.389949] (-) TimerEvent: {}
+[18.490986] (-) TimerEvent: {}
+[18.592040] (-) TimerEvent: {}
+[18.693050] (-) TimerEvent: {}
+[18.794050] (-) TimerEvent: {}
+[18.895093] (-) TimerEvent: {}
+[18.996059] (-) TimerEvent: {}
+[19.097063] (-) TimerEvent: {}
+[19.198067] (-) TimerEvent: {}
+[19.299080] (-) TimerEvent: {}
+[19.400086] (-) TimerEvent: {}
+[19.501143] (-) TimerEvent: {}
+[19.602205] (-) TimerEvent: {}
+[19.703349] (-) TimerEvent: {}
+[19.804468] (-) TimerEvent: {}
+[19.905593] (-) TimerEvent: {}
+[20.006690] (-) TimerEvent: {}
+[20.107866] (-) TimerEvent: {}
+[20.208936] (-) TimerEvent: {}
+[20.309987] (-) TimerEvent: {}
+[20.411033] (-) TimerEvent: {}
+[20.512021] (-) TimerEvent: {}
+[20.613020] (-) TimerEvent: {}
+[20.714022] (-) TimerEvent: {}
+[20.815049] (-) TimerEvent: {}
+[20.916061] (-) TimerEvent: {}
+[21.017058] (-) TimerEvent: {}
+[21.118043] (-) TimerEvent: {}
+[21.219015] (-) TimerEvent: {}
+[21.320017] (-) TimerEvent: {}
+[21.421031] (-) TimerEvent: {}
+[21.522028] (-) TimerEvent: {}
+[21.623027] (-) TimerEvent: {}
+[21.724049] (-) TimerEvent: {}
+[21.825043] (-) TimerEvent: {}
+[21.926040] (-) TimerEvent: {}
+[22.027039] (-) TimerEvent: {}
+[22.128199] (-) TimerEvent: {}
+[22.229289] (-) TimerEvent: {}
+[22.330380] (-) TimerEvent: {}
+[22.431505] (-) TimerEvent: {}
+[22.532698] (-) TimerEvent: {}
+[22.633739] (-) TimerEvent: {}
+[22.734926] (-) TimerEvent: {}
+[22.836015] (-) TimerEvent: {}
+[22.937048] (-) TimerEvent: {}
+[23.038062] (-) TimerEvent: {}
+[23.139210] (-) TimerEvent: {}
+[23.240360] (-) TimerEvent: {}
+[23.341525] (-) TimerEvent: {}
+[23.442610] (-) TimerEvent: {}
+[23.543693] (-) TimerEvent: {}
+[23.644762] (-) TimerEvent: {}
+[23.745974] (-) TimerEvent: {}
+[23.847029] (-) TimerEvent: {}
+[23.948046] (-) TimerEvent: {}
+[24.049030] (-) TimerEvent: {}
+[24.150024] (-) TimerEvent: {}
+[24.251060] (-) TimerEvent: {}
+[24.352070] (-) TimerEvent: {}
+[24.453177] (-) TimerEvent: {}
+[24.554235] (-) TimerEvent: {}
+[24.655338] (-) TimerEvent: {}
+[24.756482] (-) TimerEvent: {}
+[24.857602] (-) TimerEvent: {}
+[24.958715] (-) TimerEvent: {}
+[25.059944] (-) TimerEvent: {}
+[25.160977] (-) TimerEvent: {}
+[25.262037] (-) TimerEvent: {}
+[25.363061] (-) TimerEvent: {}
+[25.464190] (-) TimerEvent: {}
+[25.565315] (-) TimerEvent: {}
+[25.666421] (-) TimerEvent: {}
+[25.767567] (-) TimerEvent: {}
+[25.868674] (-) TimerEvent: {}
+[25.969868] (-) TimerEvent: {}
+[26.070958] (-) TimerEvent: {}
+[26.171953] (-) TimerEvent: {}
+[26.272956] (-) TimerEvent: {}
+[26.373948] (-) TimerEvent: {}
+[26.474916] (-) TimerEvent: {}
+[26.575921] (-) TimerEvent: {}
+[26.676917] (-) TimerEvent: {}
+[26.777949] (-) TimerEvent: {}
+[26.878993] (-) TimerEvent: {}
+[26.980051] (-) TimerEvent: {}
+[27.081064] (-) TimerEvent: {}
+[27.182204] (-) TimerEvent: {}
+[27.283392] (-) TimerEvent: {}
+[27.384525] (-) TimerEvent: {}
+[27.485670] (-) TimerEvent: {}
+[27.586903] (-) TimerEvent: {}
+[27.688000] (-) TimerEvent: {}
+[27.789037] (-) TimerEvent: {}
+[27.890040] (-) TimerEvent: {}
+[27.991065] (-) TimerEvent: {}
+[28.092559] (-) TimerEvent: {}
+[28.194274] (-) TimerEvent: {}
+[28.295481] (-) TimerEvent: {}
+[28.396626] (-) TimerEvent: {}
+[28.497876] (-) TimerEvent: {}
+[28.598978] (-) TimerEvent: {}
+[28.700130] (-) TimerEvent: {}
+[28.801201] (-) TimerEvent: {}
+[28.902347] (-) TimerEvent: {}
+[29.003442] (-) TimerEvent: {}
+[29.104642] (-) TimerEvent: {}
+[29.205860] (-) TimerEvent: {}
+[29.306963] (-) TimerEvent: {}
+[29.408052] (-) TimerEvent: {}
+[29.509131] (-) TimerEvent: {}
+[29.610206] (-) TimerEvent: {}
+[29.711306] (-) TimerEvent: {}
+[29.812413] (-) TimerEvent: {}
+[29.913540] (-) TimerEvent: {}
+[30.014658] (-) TimerEvent: {}
+[30.115751] (-) TimerEvent: {}
+[30.216912] (-) TimerEvent: {}
+[30.318004] (-) TimerEvent: {}
+[30.419024] (-) TimerEvent: {}
+[30.520076] (-) TimerEvent: {}
+[30.621180] (-) TimerEvent: {}
+[30.722312] (-) TimerEvent: {}
+[30.823406] (-) TimerEvent: {}
+[30.924490] (-) TimerEvent: {}
+[31.025621] (-) TimerEvent: {}
+[31.126759] (-) TimerEvent: {}
+[31.227931] (-) TimerEvent: {}
+[31.329028] (-) TimerEvent: {}
+[31.430009] (-) TimerEvent: {}
+[31.531029] (-) TimerEvent: {}
+[31.632046] (-) TimerEvent: {}
+[31.733068] (-) TimerEvent: {}
+[31.834243] (-) TimerEvent: {}
+[31.935333] (-) TimerEvent: {}
+[32.036447] (-) TimerEvent: {}
+[32.137542] (-) TimerEvent: {}
+[32.238688] (-) TimerEvent: {}
+[32.339893] (-) TimerEvent: {}
+[32.441052] (-) TimerEvent: {}
+[32.542134] (-) TimerEvent: {}
+[32.643275] (-) TimerEvent: {}
+[32.744368] (-) TimerEvent: {}
+[32.845508] (-) TimerEvent: {}
+[32.946676] (-) TimerEvent: {}
+[33.047930] (-) TimerEvent: {}
+[33.149034] (-) TimerEvent: {}
+[33.250091] (-) TimerEvent: {}
+[33.351223] (-) TimerEvent: {}
+[33.452338] (-) TimerEvent: {}
+[33.553466] (-) TimerEvent: {}
+[33.654442] (-) TimerEvent: {}
+[33.755619] (-) TimerEvent: {}
+[33.856738] (-) TimerEvent: {}
+[33.957920] (-) TimerEvent: {}
+[34.059029] (-) TimerEvent: {}
+[34.160060] (-) TimerEvent: {}
+[34.261179] (-) TimerEvent: {}
+[34.362353] (-) TimerEvent: {}
+[34.463495] (-) TimerEvent: {}
+[34.564906] (-) TimerEvent: {}
+[34.666615] (-) TimerEvent: {}
+[34.767955] (-) TimerEvent: {}
+[34.869040] (-) TimerEvent: {}
+[34.970131] (-) TimerEvent: {}
+[35.071246] (-) TimerEvent: {}
+[35.172297] (-) TimerEvent: {}
+[35.273356] (-) TimerEvent: {}
+[35.374369] (-) TimerEvent: {}
+[35.475380] (-) TimerEvent: {}
+[35.576400] (-) TimerEvent: {}
+[35.677417] (-) TimerEvent: {}
+[35.778438] (-) TimerEvent: {}
+[35.879483] (-) TimerEvent: {}
+[35.980507] (-) TimerEvent: {}
+[36.081550] (-) TimerEvent: {}
+[36.182575] (-) TimerEvent: {}
+[36.283588] (-) TimerEvent: {}
+[36.384631] (-) TimerEvent: {}
+[36.485670] (-) TimerEvent: {}
+[36.586737] (-) TimerEvent: {}
+[36.687778] (-) TimerEvent: {}
+[36.788932] (-) TimerEvent: {}
+[36.890015] (-) TimerEvent: {}
+[36.991044] (-) TimerEvent: {}
+[37.092146] (-) TimerEvent: {}
+[37.193292] (-) TimerEvent: {}
+[37.294426] (-) TimerEvent: {}
+[37.395571] (-) TimerEvent: {}
+[37.496718] (-) TimerEvent: {}
+[37.598039] (-) TimerEvent: {}
+[37.699053] (-) TimerEvent: {}
+[37.800059] (-) TimerEvent: {}
+[37.901044] (-) TimerEvent: {}
+[38.002075] (-) TimerEvent: {}
+[38.103206] (-) TimerEvent: {}
+[38.204333] (-) TimerEvent: {}
+[38.305442] (-) TimerEvent: {}
+[38.406600] (-) TimerEvent: {}
+[38.507718] (-) TimerEvent: {}
+[38.608901] (-) TimerEvent: {}
+[38.709961] (-) TimerEvent: {}
+[38.811041] (-) TimerEvent: {}
+[38.912065] (-) TimerEvent: {}
+[39.013060] (-) TimerEvent: {}
+[39.114134] (-) TimerEvent: {}
+[39.215275] (-) TimerEvent: {}
+[39.316460] (-) TimerEvent: {}
+[39.417612] (-) TimerEvent: {}
+[39.518883] (-) TimerEvent: {}
+[39.619976] (-) TimerEvent: {}
+[39.721029] (-) TimerEvent: {}
+[39.822079] (-) TimerEvent: {}
+[39.923135] (-) TimerEvent: {}
+[40.024276] (-) TimerEvent: {}
+[40.125415] (-) TimerEvent: {}
+[40.226574] (-) TimerEvent: {}
+[40.327706] (-) TimerEvent: {}
+[40.428744] (-) TimerEvent: {}
+[40.529732] (-) TimerEvent: {}
+[40.630780] (-) TimerEvent: {}
+[40.731973] (-) TimerEvent: {}
+[40.833048] (-) TimerEvent: {}
+[40.934102] (-) TimerEvent: {}
+[41.035199] (-) TimerEvent: {}
+[41.136397] (-) TimerEvent: {}
+[41.237624] (-) TimerEvent: {}
+[41.331027] (ros2_mpu6050) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:104: CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o] Error 1\n'}
+[41.376433] (-) TimerEvent: {}
+[41.377909] (ros2_mpu6050) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_mpu6050.dir/all] Error 2\n'}
+[41.386980] (ros2_mpu6050) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[41.394863] (ros2_mpu6050) CommandEnded: {'returncode': 2}
+[41.476750] (-) TimerEvent: {}
+[41.544513] (ros2_mpu6050) JobEnded: {'identifier': 'ros2_mpu6050', 'rc': 2}
+[41.557373] (-) EventReactorShutdown: {}

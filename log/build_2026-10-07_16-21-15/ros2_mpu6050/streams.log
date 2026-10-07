@@ -1,0 +1,38 @@
+[0.119s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4
+[1.070s] [ 12%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o[0m
+[1.079s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o[0m
+[1.084s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o[0m
+[1.087s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o[0m
+[16.099s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o[0m
+[16.100s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_calibrate.cpp.o[0m
+[19.899s] [ 87%] [32m[1mLinking CXX executable ros2_mpu6050_calibrate[0m
+[20.886s] [ 87%] Built target ros2_mpu6050_calibrate
+[62.997s] [100%] [32m[1mLinking CXX executable ros2_mpu6050[0m
+[66.508s] [100%] Built target ros2_mpu6050
+[66.730s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4
+[66.919s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/ros2_mpu6050
+[67.026s] -- Install configuration: ""
+[67.043s] -- Execute custom install script
+[67.060s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050.h
+[67.140s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050_hal.h
+[67.216s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050_node.h
+[67.299s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/lib/ros2_mpu6050/ros2_mpu6050
+[67.385s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/lib/ros2_mpu6050/ros2_mpu6050_calibrate
+[67.490s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/config/params.yaml
+[67.585s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/launch/ros2_mpu6050.launch.py
+[67.671s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/package_run_dependencies/ros2_mpu6050
+[67.753s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/parent_prefix_path/ros2_mpu6050
+[67.843s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/ament_prefix_path.sh
+[67.920s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/ament_prefix_path.dsv
+[68.000s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/path.sh
+[68.080s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/path.dsv
+[68.158s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.bash
+[68.241s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.sh
+[68.316s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.zsh
+[68.392s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.dsv
+[68.470s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/package.dsv
+[68.554s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/packages/ros2_mpu6050
+[68.635s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/cmake/ros2_mpu6050Config.cmake
+[68.712s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/cmake/ros2_mpu6050Config-version.cmake
+[68.789s] -- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/package.xml
+[68.905s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/ros2_mpu6050

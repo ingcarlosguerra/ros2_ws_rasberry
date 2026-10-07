@@ -1,8 +1,0 @@
-source;share/mentorpi_i2c_motor/hook/cmake_prefix_path.ps1
-source;share/mentorpi_i2c_motor/hook/cmake_prefix_path.dsv
-source;share/mentorpi_i2c_motor/hook/cmake_prefix_path.sh
-source;share/mentorpi_i2c_motor/local_setup.bash
-source;share/mentorpi_i2c_motor/local_setup.dsv
-source;share/mentorpi_i2c_motor/local_setup.ps1
-source;share/mentorpi_i2c_motor/local_setup.sh
-source;share/mentorpi_i2c_motor/local_setup.zsh

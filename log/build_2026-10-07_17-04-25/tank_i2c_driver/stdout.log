@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_driver_node.dir/src/tank_i2c_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tank_i2c_driver_node[0m
+[100%] Built target tank_i2c_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/lib/tank_i2c_driver/tank_i2c_driver_node
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/config/tank.yaml
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/launch/tank.launch.py
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/package_run_dependencies/tank_i2c_driver
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/parent_prefix_path/tank_i2c_driver
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.sh
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.bash
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.sh
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.zsh
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/packages/tank_i2c_driver
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig.cmake
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig-version.cmake
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.xml

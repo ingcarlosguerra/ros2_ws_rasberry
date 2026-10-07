@@ -1,0 +1,63 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_driver_node.dir/src/tank_i2c_driver.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1[m[K:
+[01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:[m[K In member function ‘[01m[Kvoid TankI2CDriver::[01;32m[Kpublish_odometry[m[K(double, double)[m[K’:
+[01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+ 1181 |             [01;35m[K"ENC L=%d R=%d | "[m[K
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+ 1182 | [01;35m[K            "dL=%.5f dR=%.5f | "[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~[m[K
+ 1183 | [01;35m[K            "x=%.3f y=%.3f theta=%.3f"[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1184 |             [32m[Kdelta_left_m[m[K,
+      |             [32m[K~~~~~~~~~~~~[m[K
+      |             [32m[K|[m[K
+      |             [32m[Kdouble[m[K
+[01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+ 1181 |             "ENC L=[01;36m[K%d[m[K R=%d | "
+      |                    [01;36m[K~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kint[m[K
+      |                    [32m[K%f[m[K
+[01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+ 1181 |             [01;35m[K"ENC L=%d R=%d | "[m[K
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+ 1182 | [01;35m[K            "dL=%.5f dR=%.5f | "[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~[m[K
+ 1183 | [01;35m[K            "x=%.3f y=%.3f theta=%.3f"[m[K,
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1184 |             delta_left_m,
+ 1185 |             [32m[Kdelta_right_m[m[K,
+      |             [32m[K~~~~~~~~~~~~~[m[K
+      |             [32m[K|[m[K
+      |             [32m[Kdouble[m[K
+[01m[K/home/carlos/ros2_ws/src/tank_i2c_driver/src/tank_i2c_driver.cpp:1181:26:[m[K [01;36m[Knote: [m[Kformat string is defined here
+ 1181 |             "ENC L=%d R=[01;36m[K%d[m[K | "
+      |                         [01;36m[K~^[m[K
+      |                          [01;36m[K|[m[K
+      |                          [01;36m[Kint[m[K
+      |                         [32m[K%f[m[K
+[100%] [32m[1mLinking CXX executable tank_i2c_driver_node[0m
+[100%] Built target tank_i2c_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/lib/tank_i2c_driver/tank_i2c_driver_node
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/config/tank.yaml
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/launch/tank.launch.py
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/package_run_dependencies/tank_i2c_driver
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/parent_prefix_path/tank_i2c_driver
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.sh
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.dsv
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.bash
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.sh
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.zsh
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/packages/tank_i2c_driver
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig.cmake
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig-version.cmake
+-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.xml

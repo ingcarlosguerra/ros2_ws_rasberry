@@ -1,0 +1,11 @@
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/uninstall.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/ros2_mpu6050_uninstall.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/ros2_mpu6050.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/ros2_mpu6050_calibrate.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/test.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/edit_cache.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/rebuild_cache.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/list_install_components.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/install.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/install/local.dir
+/home/carlos/ros2_ws/build/ros2_mpu6050/CMakeFiles/install/strip.dir

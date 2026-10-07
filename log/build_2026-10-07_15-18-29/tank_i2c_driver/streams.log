@@ -1,0 +1,36 @@
+[0.253s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[3.466s] -- The C compiler identification is GNU 13.3.0
+[5.730s] -- The CXX compiler identification is GNU 13.3.0
+[5.998s] -- Detecting C compiler ABI info
+[7.666s] -- Detecting C compiler ABI info - done
+[7.784s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.798s] -- Detecting C compile features
+[7.799s] -- Detecting C compile features - done
+[7.989s] -- Detecting CXX compiler ABI info
+[9.742s] -- Detecting CXX compiler ABI info - done
+[9.864s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.876s] -- Detecting CXX compile features
+[9.884s] -- Detecting CXX compile features - done
+[9.996s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[12.685s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.822s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[15.601s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[15.831s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[16.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.674s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[17.732s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[18.988s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.199s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[19.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.589s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[21.084s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[21.614s] -- Found tf2: 0.36.22 (/opt/ros/jazzy/share/tf2/cmake)
+[21.730s] -- Found tf2_ros: 0.36.22 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[27.603s] -- Configuring done (26.8s)
+[28.291s] -- Generating done (0.3s)
+[28.481s] -- Build files have been written to: /home/carlos/ros2_ws/build/tank_i2c_driver
+[28.850s] Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[28.862s] Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[30.018s] [ 50%] [32mBuilding CXX object CMakeFiles/tank_i2c_driver_node.dir/src/tank_i2c_driver.cpp.o[0m

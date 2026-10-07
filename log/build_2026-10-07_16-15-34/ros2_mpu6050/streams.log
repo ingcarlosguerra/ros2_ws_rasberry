@@ -1,0 +1,84 @@
+[0.104s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/ros2_mpu6050
+[0.263s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.301s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.631s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.747s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.740s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.761s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.008s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[6.367s] -- Configuring done (6.2s)
+[6.536s] -- Generating done (0.1s)
+[6.575s] -- Build files have been written to: /home/carlos/ros2_ws/build/ros2_mpu6050
+[6.632s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/ros2_mpu6050
+[6.646s] Invoking command in '/home/carlos/ros2_ws/build/ros2_mpu6050': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4
+[7.113s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o[0m
+[7.115s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o[0m
+[7.116s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o[0m
+[7.117s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o[0m
+[10.264s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[10.269s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[10.275s]   253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+[10.281s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[10.287s] In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+[10.289s]                  from [01m[K/usr/include/c++/13/string:58[m[K,
+[10.291s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+[10.293s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[10.296s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[10.298s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[10.300s]       |                                             [01;36m[K^~~~~[m[K
+[10.303s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[10.305s]   254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+[10.307s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[10.309s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[10.311s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[10.314s]       |                                             [01;36m[K^~~~~[m[K
+[10.849s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[10.857s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[10.861s]   253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+[10.866s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[10.872s] In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+[10.877s]                  from [01m[K/usr/include/c++/13/string:58[m[K,
+[10.883s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+[10.888s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[10.896s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[10.901s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[10.906s]       |                                             [01;36m[K^~~~~[m[K
+[10.912s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[10.916s]   254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+[10.919s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[10.925s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[10.930s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[10.936s]       |                                             [01;36m[K^~~~~[m[K
+[11.916s] gmake[2]: *** [CMakeFiles/ros2_mpu6050_calibrate.dir/build.make:76: CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o] Error 1
+[11.919s] gmake[2]: *** Waiting for unfinished jobs....
+[12.015s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ros2_mpu6050_calibrate.dir/all] Error 2
+[12.016s] gmake[1]: *** Waiting for unfinished jobs....
+[12.056s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o[0m
+[12.077s] gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:76: CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o] Error 1
+[12.078s] gmake[2]: *** Waiting for unfinished jobs....
+[17.821s] In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_node.h:4[m[K,
+[17.822s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_node.cpp:1[m[K:
+[17.823s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[17.824s]   253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+[17.825s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[17.826s] In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+[17.827s]                  from [01m[K/usr/include/c++/13/string:58[m[K,
+[17.828s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+[17.829s]                  from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[17.831s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[17.832s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[17.833s]       |                                             [01;36m[K^~~~~[m[K
+[17.834s] [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+[17.835s]   254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+[17.836s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[17.837s] [01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+[17.838s]  2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+[17.839s]       |                                             [01;36m[K^~~~~[m[K
+[41.365s] gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:104: CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o] Error 1
+[41.381s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_mpu6050.dir/all] Error 2
+[41.390s] gmake: *** [Makefile:146: all] Error 2
+[41.392s] Invoked command in '/home/carlos/ros2_ws/build/ros2_mpu6050' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/ros2_mpu6050 -- -j4 -l4

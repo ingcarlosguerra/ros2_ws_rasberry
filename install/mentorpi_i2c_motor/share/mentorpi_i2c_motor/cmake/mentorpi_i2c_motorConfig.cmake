@@ -1,1 +1,0 @@
-/home/carlos/ros2_ws/build/mentorpi_i2c_motor/ament_cmake_core/mentorpi_i2c_motorConfig.cmake

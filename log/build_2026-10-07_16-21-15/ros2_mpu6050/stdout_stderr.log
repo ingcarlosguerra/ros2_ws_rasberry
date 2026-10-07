@@ -1,0 +1,34 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_hal.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_hal.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050_calibrate.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable ros2_mpu6050_calibrate[0m
+[ 87%] Built target ros2_mpu6050_calibrate
+[100%] [32m[1mLinking CXX executable ros2_mpu6050[0m
+[100%] Built target ros2_mpu6050
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050.h
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050_hal.h
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/include/include/ros2_mpu6050/mpu6050_node.h
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/lib/ros2_mpu6050/ros2_mpu6050
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/lib/ros2_mpu6050/ros2_mpu6050_calibrate
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/config/params.yaml
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/launch/ros2_mpu6050.launch.py
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/package_run_dependencies/ros2_mpu6050
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/parent_prefix_path/ros2_mpu6050
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/ament_prefix_path.sh
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/ament_prefix_path.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/path.sh
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/environment/path.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.bash
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.sh
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.zsh
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/local_setup.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/package.dsv
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ament_index/resource_index/packages/ros2_mpu6050
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/cmake/ros2_mpu6050Config.cmake
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/cmake/ros2_mpu6050Config-version.cmake
+-- Symlinking: /home/carlos/ros2_ws/install/ros2_mpu6050/share/ros2_mpu6050/package.xml

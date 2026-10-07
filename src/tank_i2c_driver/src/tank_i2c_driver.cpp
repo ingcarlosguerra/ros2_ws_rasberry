@@ -759,7 +759,7 @@ private:
 
 
         double angular =
-            std::clamp(
+            -std::clamp(
                 msg->angular.z,
                 -max_angular_speed_,
                 max_angular_speed_);
@@ -1178,7 +1178,7 @@ private:
 
         RCLCPP_DEBUG(
             get_logger(),
-            "ENC L=%d R=%d | "
+            "ENC L=%f R=%f | "
             "dL=%.5f dR=%.5f | "
             "x=%.3f y=%.3f theta=%.3f",
             delta_left_m,

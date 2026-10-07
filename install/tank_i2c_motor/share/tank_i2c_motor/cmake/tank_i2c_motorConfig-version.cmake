@@ -1,1 +1,0 @@
-/home/carlos/ros2_ws/build/tank_i2c_motor/ament_cmake_core/tank_i2c_motorConfig-version.cmake

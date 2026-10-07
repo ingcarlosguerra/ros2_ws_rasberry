@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001421] (-) JobUnselected: {'identifier': 'ros2_mpu6050'}
+[0.002662] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004526] (-) JobUnselected: {'identifier': 'tank_i2c_motor'}
+[0.006063] (-) JobUnselected: {'identifier': 'tank_i2c_odom'}
+[0.007435] (tank_i2c_driver) JobQueued: {'identifier': 'tank_i2c_driver', 'dependencies': OrderedDict()}
+[0.007977] (tank_i2c_driver) JobStarted: {'identifier': 'tank_i2c_driver'}
+[0.098491] (-) TimerEvent: {}
+[0.119182] (tank_i2c_driver) JobProgress: {'identifier': 'tank_i2c_driver', 'progress': 'cmake'}
+[0.126569] (tank_i2c_driver) JobProgress: {'identifier': 'tank_i2c_driver', 'progress': 'build'}
+[0.131803] (tank_i2c_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/carlos/ros2_ws/build/tank_i2c_driver', '--', '-j4', '-l4'], 'cwd': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 49548 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 49548 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/opt/ros/jazzy'}), 'shell': False}
+[0.198818] (-) TimerEvent: {}
+[0.302727] (-) TimerEvent: {}
+[0.404016] (-) TimerEvent: {}
+[0.505538] (-) TimerEvent: {}
+[0.606812] (-) TimerEvent: {}
+[0.708259] (-) TimerEvent: {}
+[0.809558] (-) TimerEvent: {}
+[0.935842] (-) TimerEvent: {}
+[1.037347] (-) TimerEvent: {}
+[1.139070] (-) TimerEvent: {}
+[1.240682] (-) TimerEvent: {}
+[1.342222] (-) TimerEvent: {}
+[1.443421] (-) TimerEvent: {}
+[1.544830] (-) TimerEvent: {}
+[1.646469] (-) TimerEvent: {}
+[1.748116] (-) TimerEvent: {}
+[1.849627] (-) TimerEvent: {}
+[1.951514] (-) TimerEvent: {}
+[2.052932] (-) TimerEvent: {}
+[2.154578] (-) TimerEvent: {}
+[2.256011] (-) TimerEvent: {}
+[2.357631] (-) TimerEvent: {}
+[2.458944] (-) TimerEvent: {}
+[2.560126] (-) TimerEvent: {}
+[2.661397] (-) TimerEvent: {}
+[2.762803] (-) TimerEvent: {}
+[2.864328] (-) TimerEvent: {}
+[2.965823] (-) TimerEvent: {}
+[3.067269] (-) TimerEvent: {}
+[3.168561] (-) TimerEvent: {}
+[3.213679] (tank_i2c_driver) StdoutLine: {'line': b'[100%] Built target tank_i2c_driver_node\n'}
+[3.268867] (-) TimerEvent: {}
+[3.318752] (tank_i2c_driver) CommandEnded: {'returncode': 0}
+[3.325536] (tank_i2c_driver) JobProgress: {'identifier': 'tank_i2c_driver', 'progress': 'install'}
+[3.369212] (-) TimerEvent: {}
+[3.447477] (tank_i2c_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/carlos/ros2_ws/build/tank_i2c_driver'], 'cwd': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 49548 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 49548 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/opt/ros/jazzy'}), 'shell': False}
+[3.469417] (-) TimerEvent: {}
+[3.525695] (tank_i2c_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.569708] (-) TimerEvent: {}
+[3.670851] (-) TimerEvent: {}
+[3.772004] (-) TimerEvent: {}
+[3.789284] (tank_i2c_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.794124] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/lib/tank_i2c_driver/tank_i2c_driver_node\n'}
+[3.872269] (-) TimerEvent: {}
+[3.973341] (-) TimerEvent: {}
+[4.074835] (-) TimerEvent: {}
+[4.176405] (-) TimerEvent: {}
+[4.278855] (-) TimerEvent: {}
+[4.293354] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/config/tank.yaml\n'}
+[4.298264] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/launch/tank.launch.py\n'}
+[4.301527] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/package_run_dependencies/tank_i2c_driver\n'}
+[4.304569] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/parent_prefix_path/tank_i2c_driver\n'}
+[4.306855] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.sh\n'}
+[4.309088] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/ament_prefix_path.dsv\n'}
+[4.311615] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.sh\n'}
+[4.313932] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/environment/path.dsv\n'}
+[4.316425] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.bash\n'}
+[4.318761] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.sh\n'}
+[4.320855] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.zsh\n'}
+[4.323147] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/local_setup.dsv\n'}
+[4.324767] (tank_i2c_driver) StdoutLine: {'line': b'-- Symlinking: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv\n'}
+[4.379125] (-) TimerEvent: {}
+[4.412274] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/ament_index/resource_index/packages/tank_i2c_driver\n'}
+[4.414564] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig.cmake\n'}
+[4.416998] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/cmake/tank_i2c_driverConfig-version.cmake\n'}
+[4.419643] (tank_i2c_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.xml\n'}
+[4.435426] (tank_i2c_driver) CommandEnded: {'returncode': 0}
+[4.479473] (-) TimerEvent: {}
+[4.580892] (-) TimerEvent: {}
+[4.682448] (-) TimerEvent: {}
+[4.783821] (-) TimerEvent: {}
+[4.885477] (-) TimerEvent: {}
+[4.986850] (-) TimerEvent: {}
+[5.090396] (-) TimerEvent: {}
+[5.191822] (-) TimerEvent: {}
+[5.293394] (-) TimerEvent: {}
+[5.394827] (-) TimerEvent: {}
+[5.496466] (-) TimerEvent: {}
+[5.597919] (-) TimerEvent: {}
+[5.699448] (-) TimerEvent: {}
+[5.800853] (-) TimerEvent: {}
+[5.959329] (-) TimerEvent: {}
+[6.060945] (-) TimerEvent: {}
+[6.085842] (tank_i2c_driver) JobEnded: {'identifier': 'tank_i2c_driver', 'rc': 0}
+[6.091956] (-) EventReactorShutdown: {}

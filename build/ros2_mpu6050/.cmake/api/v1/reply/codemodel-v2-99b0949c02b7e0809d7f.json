@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4624d84f81ba76a3fc6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_mpu6050",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_mpu6050::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_mpu6050-916f91708df975d9680b.json",
+					"name" : "ros2_mpu6050",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_mpu6050_calibrate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_mpu6050_calibrate-7ee00e5dc04dfba2f327.json",
+					"name" : "ros2_mpu6050_calibrate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_mpu6050_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_mpu6050_uninstall-ddc9660605573c96d053.json",
+					"name" : "ros2_mpu6050_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e6cce56101b848506e45.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlos/ros2_ws/build/ros2_mpu6050",
+		"source" : "/home/carlos/ros2_ws/src/ros2_mpu6050"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

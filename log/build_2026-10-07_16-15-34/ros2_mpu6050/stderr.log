@@ -1,0 +1,61 @@
+In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+      |                                 [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+                 from [01m[K/usr/include/c++/13/string:58[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050.cpp:31[m[K:
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+      |                                 [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+                 from [01m[K/usr/include/c++/13/string:58[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_mpu6050_calibrate.dir/build.make:76: CMakeFiles/ros2_mpu6050_calibrate.dir/src/mpu6050.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ros2_mpu6050_calibrate.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:76: CMakeFiles/ros2_mpu6050.dir/src/mpu6050.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_node.h:4[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/src/mpu6050_node.cpp:1[m[K:
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:253:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaFsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  253 |     const std::array<double, 4> [01;31m[KaFsSelVal[m[K {131, 65.5, 32.8, 16.4};
+      |                                 [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:47[m[K,
+                 from [01m[K/usr/include/c++/13/string:58[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050_hal.h:5[m[K,
+                 from [01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:35[m[K:
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+[01m[K/home/carlos/ros2_ws/src/ros2_mpu6050/include/ros2_mpu6050/mpu6050.h:254:33:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[KaAfsSelVal[m[K’ has incomplete type ‘[01m[Kconst std::array<double, 4>[m[K’
+  254 |     const std::array<double, 4> [01;31m[KaAfsSelVal[m[K {16384, 8192, 4096, 2048};
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/tuple:2019:45:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct std::array<double, 4>[m[K’
+ 2019 |   template<typename _Tp, size_t _Nm> struct [01;36m[Karray[m[K;
+      |                                             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_mpu6050.dir/build.make:104: CMakeFiles/ros2_mpu6050.dir/src/mpu6050_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ros2_mpu6050.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
