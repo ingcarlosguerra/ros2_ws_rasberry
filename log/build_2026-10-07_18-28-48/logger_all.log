@@ -1,0 +1,182 @@
+[1.559s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'tank_i2c_driver']
+[1.560s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tank_i2c_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaa54f1d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaa707a40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaa707a40>>, mixin_verb=('build',))
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carlos/ros2_ws'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ignore', 'ignore_ament_install']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore_ament_install'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['colcon_pkg']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'colcon_pkg'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['colcon_meta']
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'colcon_meta'
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ros']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ros'
+[2.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mpu6050' with type 'ros.ament_cmake' and name 'ros2_mpu6050'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ignore'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ignore_ament_install'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['colcon_pkg']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'colcon_pkg'
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['colcon_meta']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'colcon_meta'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['ros']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ros'
+[2.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tank_i2c_driver' with type 'ros.ament_cmake' and name 'tank_i2c_driver'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extensions ['ignore', 'ignore_ament_install']
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extension 'ignore'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extension 'ignore_ament_install'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extensions ['colcon_pkg']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extensions ['colcon_meta']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extension 'colcon_meta'
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extensions ['ros']
+[2.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_motor) by extension 'ros'
+[2.633s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tank_i2c_motor' with type 'ros.ament_cmake' and name 'tank_i2c_motor'
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extensions ['ignore', 'ignore_ament_install']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extension 'ignore'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extension 'ignore_ament_install'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extensions ['colcon_pkg']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extension 'colcon_pkg'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extensions ['colcon_meta']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extension 'colcon_meta'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extensions ['ros']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_odom) by extension 'ros'
+[2.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tank_i2c_odom' with type 'ros.ament_cmake' and name 'tank_i2c_odom'
+[2.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.900s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_mpu6050' in 'src/ros2_mpu6050'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tank_i2c_motor' in 'src/tank_i2c_motor'
+[2.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tank_i2c_odom' in 'src/tank_i2c_odom'
+[2.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.941s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/carlos/ros2_ws/install
+[2.957s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/jazzy
+[2.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.336s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_args' from command line to 'None'
+[3.337s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_target' from command line to 'None'
+[3.337s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.337s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.338s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.338s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.338s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.339s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.339s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.339s] DEBUG:colcon.colcon_core.verb:Building package 'tank_i2c_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/tank_i2c_driver', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/tank_i2c_driver', 'symlink_install': True, 'test_result_base': None}
+[3.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carlos/ros2_ws/src/tank_i2c_driver' with build type 'ament_cmake'
+[3.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carlos/ros2_ws/src/tank_i2c_driver'
+[3.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[158.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[159.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[159.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[159.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tank_i2c_driver)
+[160.278s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake module files
+[160.297s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake config files
+[160.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('tank_i2c_driver', 'cmake_prefix_path')
+[160.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.ps1'
+[160.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.dsv'
+[160.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.sh'
+[160.511s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib'
+[160.514s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[160.517s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/pkgconfig/tank_i2c_driver.pc'
+[160.552s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/python3.12/site-packages'
+[160.560s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[160.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.ps1'
+[160.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv'
+[160.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.sh'
+[160.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.bash'
+[160.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.zsh'
+[160.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/tank_i2c_driver/share/colcon-core/packages/tank_i2c_driver)
+[160.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tank_i2c_driver)
+[160.739s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake module files
+[160.748s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake config files
+[160.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('tank_i2c_driver', 'cmake_prefix_path')
+[160.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.ps1'
+[160.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.dsv'
+[160.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.sh'
+[160.777s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib'
+[160.779s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[160.780s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/pkgconfig/tank_i2c_driver.pc'
+[160.783s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/python3.12/site-packages'
+[160.788s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[160.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.ps1'
+[160.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv'
+[160.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.sh'
+[160.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.bash'
+[160.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.zsh'
+[160.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/tank_i2c_driver/share/colcon-core/packages/tank_i2c_driver)
+[160.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[160.880s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[160.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[160.899s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[160.951s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[160.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.ps1'
+[160.989s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_ps1.py'
+[161.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.ps1'
+[161.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.sh'
+[161.050s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_sh.py'
+[161.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.sh'
+[161.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.bash'
+[161.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.bash'
+[161.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.zsh'
+[161.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.zsh'
