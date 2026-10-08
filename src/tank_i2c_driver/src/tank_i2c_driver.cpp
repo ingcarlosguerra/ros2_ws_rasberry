@@ -12,9 +12,11 @@
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <csignal>
 
 #include <algorithm>
 #include <array>
+#include <atomic>
 #include <cerrno>
 #include <chrono>
 #include <cmath>
@@ -26,6 +28,14 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+
+// Bandera para señales que rclcpp no maneja (SIGHUP al cerrar la terminal)
+static std::atomic<bool> g_terminate{false};
+
+static void terminate_handler(int)
+{
+    g_terminate.store(true);
+}
 
 class TankI2CDriver : public rclcpp::Node
 {
@@ -45,18 +55,18 @@ public:
         declare_parameter<int>("right_motor_sign", 1);
         declare_parameter<int>("left_encoder_sign", 1);
         declare_parameter<int>("right_encoder_sign", 1);
-        declare_parameter<int>("angular_sign", -1);          // antes hardcodeado
+        declare_parameter<int>("angular_sign", -1);
         declare_parameter<double>("motor_rate", 30.0);
-        declare_parameter<double>("motor_keepalive", 0.10);  // reenviar aunque no cambie
+        declare_parameter<double>("motor_keepalive", 0.10);
         declare_parameter<double>("encoder_rate", 20.0);
         declare_parameter<bool>("publish_tf", true);
         declare_parameter<std::string>("odom_frame", "odom");
         declare_parameter<std::string>("base_frame", "base_link");
         declare_parameter<double>("watchdog_timeout", 0.25);
         declare_parameter<bool>("configure_board", true);
-        declare_parameter<int>("motor_type", 3);             // VERIFICAR en SDK Hiwonder (JGB37_520_12V_110RPM)
+        declare_parameter<int>("motor_type", 3);             // VERIFICAR en SDK Hiwonder
         declare_parameter<int>("encoder_polarity", 0);
-        declare_parameter<int>("max_delta_ticks", 2000);     // por ciclo de encoder
+        declare_parameter<int>("max_delta_ticks", 2000);
         declare_parameter<int>("read_retries", 3);
         declare_parameter<int>("reopen_after_failures", 5);
 
@@ -103,6 +113,13 @@ public:
         if (!open_i2c())
             throw std::runtime_error("No se pudo abrir el bus I2C");
 
+        // Sondeo de la placa con reintentos y reapertura del bus
+        if (!probe_board())
+            throw std::runtime_error(
+                "La placa no responde en el bus I2C. Posible bus colgado "
+                "(SDA en bajo): revisa 'pinctrl get 2,3', 'i2cdetect -y 1' "
+                "y que no haya otro proceso usando el bus");
+
         if (configure_board_ && !configure_board())
             RCLCPP_WARN(get_logger(), "No se pudo configurar la placa (motor type/polaridad)");
 
@@ -128,6 +145,11 @@ public:
                 std::chrono::duration<double>(1.0 / encoder_rate_)),
             std::bind(&TankI2CDriver::encoder_timer_callback, this));
 
+        // Vigila señales (SIGHUP/SIGTERM) a 20 Hz, independiente del motor_rate
+        signal_timer_ = create_wall_timer(
+            std::chrono::milliseconds(50),
+            std::bind(&TankI2CDriver::signal_timer_callback, this));
+
         RCLCPP_INFO(get_logger(), "TANK I2C DRIVER | %s @0x%02X | %.9f m/tick | motores %.0f Hz | encoders %.0f Hz",
                     i2c_device_.c_str(), i2c_address_, meters_per_tick_, motor_rate_, encoder_rate_);
 
@@ -136,8 +158,18 @@ public:
 
     ~TankI2CDriver()
     {
-        stop_motors();
-        if (fd_ >= 0) close(fd_);
+        // Varias veces: si una escritura falla, la siguiente puede entrar
+        for (int i = 0; i < 3; i++)
+        {
+            stop_motors();
+            usleep(5000);
+        }
+        std::lock_guard<std::mutex> lock(i2c_mutex_);
+        if (fd_ >= 0)
+        {
+            close(fd_);
+            fd_ = -1;
+        }
     }
 
 private:
@@ -167,7 +199,7 @@ private:
     // ROS
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_sub_;
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_pub_;
-    rclcpp::TimerBase::SharedPtr motor_timer_, encoder_timer_;
+    rclcpp::TimerBase::SharedPtr motor_timer_, encoder_timer_, signal_timer_;
     std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
 
     // Comandos
@@ -193,7 +225,7 @@ private:
     // ---------------------------------------------------------
     bool open_i2c_locked()
     {
-        fd_ = open(i2c_device_.c_str(), O_RDWR);
+        fd_ = open(i2c_device_.c_str(), O_RDWR | O_CLOEXEC);
         if (fd_ < 0) return false;
         if (ioctl(fd_, I2C_SLAVE, i2c_address_) < 0)
         {
@@ -215,13 +247,10 @@ private:
 
     bool reopen_i2c()
     {
-        {
-            std::lock_guard<std::mutex> lock(i2c_mutex_);
-            if (fd_ >= 0) { close(fd_); fd_ = -1; }
-            usleep(20000);
-            if (!open_i2c_locked()) return false;
-        }
-        return true;
+        std::lock_guard<std::mutex> lock(i2c_mutex_);
+        if (fd_ >= 0) { close(fd_); fd_ = -1; }
+        usleep(20000);
+        return open_i2c_locked();
     }
 
     // Escritura de una sola transaccion: [reg, data...]
@@ -293,6 +322,20 @@ private:
         return ok;
     }
 
+    // Comprueba que la placa responde; reabre el bus entre intentos
+    bool probe_board()
+    {
+        std::array<int32_t, 4> e;
+        for (int i = 0; i < 5; i++)
+        {
+            if (read_encoders(e)) return true;
+            RCLCPP_WARN(get_logger(), "La placa no responde (intento %d/5)", i + 1);
+            usleep(50000);
+            reopen_i2c();
+        }
+        return false;
+    }
+
     bool write_motor_speeds(int8_t m1, int8_t m2, int8_t m3, int8_t m4)
     {
         uint8_t data[4] = {
@@ -319,6 +362,20 @@ private:
     }
 
     // ---------------------------------------------------------
+    void signal_timer_callback()
+    {
+        if (g_terminate.load())
+        {
+            RCLCPP_WARN(get_logger(), "Señal de terminación recibida: parando motores y saliendo");
+            for (int i = 0; i < 3; i++)
+            {
+                stop_motors();
+                usleep(5000);
+            }
+            rclcpp::shutdown();
+        }
+    }
+
     void cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
         last_cmd_time_ = now();
@@ -352,7 +409,6 @@ private:
             target_right_motor_ = 0;
         }
 
-        // Solo escribir si cambio, o como keep-alive
         bool changed = target_left_motor_ != sent_left_motor_ ||
                        target_right_motor_ != sent_right_motor_;
         bool keepalive = (t - last_motor_send_).seconds() >= motor_keepalive_;
@@ -384,7 +440,7 @@ private:
             return;
         }
         if (configure_board_) configure_board();
-        encoder_initialized_ = false;  // re-sincronizar deltas (la placa pudo reiniciarse)
+        encoder_initialized_ = false;
         force_send_ = true;
     }
 
@@ -435,7 +491,6 @@ private:
         double dt = (stamp - last_encoder_time_).seconds();
         last_encoder_time_ = stamp;
 
-        // Rechazar lecturas corruptas / reinicio de la placa
         if (std::abs(static_cast<int64_t>(delta_left)) > max_delta_ticks_ ||
             std::abs(static_cast<int64_t>(delta_right)) > max_delta_ticks_ || dt <= 0.0)
         {
@@ -504,16 +559,23 @@ private:
 
 int main(int argc, char *argv[])
 {
+    // Ignorar SIGPIPE (logs a una terminal cerrada) y manejar SIGHUP/SIGTERM limpiamente
+    std::signal(SIGPIPE, SIG_IGN);
+    std::signal(SIGHUP, terminate_handler);
+
     rclcpp::init(argc, argv);
+
     try
     {
         auto node = std::make_shared<TankI2CDriver>();
         rclcpp::spin(node);
+        node.reset();   // fuerza el destructor (stop motores + cierre del fd) antes de shutdown
     }
     catch (const std::exception &e)
     {
         RCLCPP_FATAL(rclcpp::get_logger("tank_i2c_driver"), "%s", e.what());
     }
+
     rclcpp::shutdown();
     return 0;
 }
