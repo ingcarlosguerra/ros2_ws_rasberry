@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robot-bringup
+Version: 0.0.0
+Summary: Launch para iniciar todos los nodos del robot
+Maintainer: carlos
+Maintainer-email: est.carlos.guerra@unimilitar.edu.co
+License: TODO: License declaration
+Provides-Extra: test

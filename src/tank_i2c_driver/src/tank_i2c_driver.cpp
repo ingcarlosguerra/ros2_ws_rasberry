@@ -503,7 +503,15 @@ private:
         double delta_right_m = delta_right * meters_per_tick_;
 
         double delta_s = (delta_left_m + delta_right_m) / 2.0;
-        double delta_theta = (delta_right_m - delta_left_m) / track_width_;
+        double delta_theta = ( delta_left_m - delta_right_m ) / track_width_;
+
+    //     RCLCPP_INFO_THROTTLE(
+    // get_logger(), *get_clock(), 500,
+    // "dL=%.4f dR=%.4f dtheta=%.4f theta=%.4f",
+    // delta_left_m,
+    // delta_right_m,
+    // delta_theta,
+    // theta_);
 
         double theta_mid = theta_ + delta_theta / 2.0;
         x_ += delta_s * std::cos(theta_mid);
