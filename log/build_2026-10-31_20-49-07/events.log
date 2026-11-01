@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.001060] (-) JobUnselected: {'identifier': 'mpu6050driver'}
+[0.002000] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002154] (-) JobUnselected: {'identifier': 'tank_i2c_driver'}
+[0.002278] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.003793] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.098496] (-) TimerEvent: {}
+[0.199494] (-) TimerEvent: {}
+[0.300484] (-) TimerEvent: {}
+[0.401447] (-) TimerEvent: {}
+[0.502403] (-) TimerEvent: {}
+[0.603327] (-) TimerEvent: {}
+[0.704319] (-) TimerEvent: {}
+[0.805271] (-) TimerEvent: {}
+[0.906202] (-) TimerEvent: {}
+[1.007183] (-) TimerEvent: {}
+[1.108206] (-) TimerEvent: {}
+[1.209158] (-) TimerEvent: {}
+[1.310090] (-) TimerEvent: {}
+[1.411057] (-) TimerEvent: {}
+[1.511954] (-) TimerEvent: {}
+[1.612875] (-) TimerEvent: {}
+[1.713730] (-) TimerEvent: {}
+[1.814732] (-) TimerEvent: {}
+[1.915825] (-) TimerEvent: {}
+[2.016857] (-) TimerEvent: {}
+[2.118105] (-) TimerEvent: {}
+[2.219074] (-) TimerEvent: {}
+[2.320257] (-) TimerEvent: {}
+[2.421329] (-) TimerEvent: {}
+[2.522395] (-) TimerEvent: {}
+[2.623367] (-) TimerEvent: {}
+[2.724307] (-) TimerEvent: {}
+[2.825344] (-) TimerEvent: {}
+[2.926288] (-) TimerEvent: {}
+[3.027253] (-) TimerEvent: {}
+[3.128351] (-) TimerEvent: {}
+[3.229332] (-) TimerEvent: {}
+[3.330328] (-) TimerEvent: {}
+[3.431267] (-) TimerEvent: {}
+[3.532221] (-) TimerEvent: {}
+[3.633193] (-) TimerEvent: {}
+[3.734137] (-) TimerEvent: {}
+[3.835224] (-) TimerEvent: {}
+[3.936308] (-) TimerEvent: {}
+[4.037424] (-) TimerEvent: {}
+[4.138707] (-) TimerEvent: {}
+[4.239740] (-) TimerEvent: {}
+[4.340770] (-) TimerEvent: {}
+[4.441864] (-) TimerEvent: {}
+[4.542934] (-) TimerEvent: {}
+[4.644140] (-) TimerEvent: {}
+[4.745179] (-) TimerEvent: {}
+[4.846247] (-) TimerEvent: {}
+[4.947459] (-) TimerEvent: {}
+[5.048547] (-) TimerEvent: {}
+[5.149512] (-) TimerEvent: {}
+[5.250522] (-) TimerEvent: {}
+[5.351629] (-) TimerEvent: {}
+[5.452640] (-) TimerEvent: {}
+[5.553683] (-) TimerEvent: {}
+[5.654546] (-) TimerEvent: {}
+[5.755452] (-) TimerEvent: {}
+[5.856386] (-) TimerEvent: {}
+[5.957335] (-) TimerEvent: {}
+[6.058304] (-) TimerEvent: {}
+[6.159326] (-) TimerEvent: {}
+[6.260302] (-) TimerEvent: {}
+[6.361242] (-) TimerEvent: {}
+[6.462218] (-) TimerEvent: {}
+[6.563160] (-) TimerEvent: {}
+[6.664100] (-) TimerEvent: {}
+[6.765120] (-) TimerEvent: {}
+[6.866007] (-) TimerEvent: {}
+[6.966937] (-) TimerEvent: {}
+[7.067882] (-) TimerEvent: {}
+[7.168724] (-) TimerEvent: {}
+[7.269536] (-) TimerEvent: {}
+[7.370422] (-) TimerEvent: {}
+[7.471348] (-) TimerEvent: {}
+[7.572309] (-) TimerEvent: {}
+[7.673278] (-) TimerEvent: {}
+[7.774279] (-) TimerEvent: {}
+[7.875297] (-) TimerEvent: {}
+[7.976320] (-) TimerEvent: {}
+[8.077446] (-) TimerEvent: {}
+[8.178676] (-) TimerEvent: {}
+[8.279797] (-) TimerEvent: {}
+[8.288966] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/carlos/ros2_ws/build/robot_bringup/build'], 'cwd': '/home/carlos/ros2_ws/build/robot_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 36862 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/home/carlos/ros2_ws/install/robot_bringup:/home/carlos/ros2_ws/install/mpu6050driver:/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 36862 192.168.0.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/home/carlos/ros2_ws/install/mpu6050driver:/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[8.380061] (-) TimerEvent: {}
+[8.481029] (-) TimerEvent: {}
+[8.581989] (-) TimerEvent: {}
+[8.683052] (-) TimerEvent: {}
+[8.784134] (-) TimerEvent: {}
+[8.885128] (-) TimerEvent: {}
+[8.986111] (-) TimerEvent: {}
+[9.087093] (-) TimerEvent: {}
+[9.188068] (-) TimerEvent: {}
+[9.289023] (-) TimerEvent: {}
+[9.390030] (-) TimerEvent: {}
+[9.490929] (-) TimerEvent: {}
+[9.591782] (-) TimerEvent: {}
+[9.692692] (-) TimerEvent: {}
+[9.793530] (-) TimerEvent: {}
+[9.894466] (-) TimerEvent: {}
+[9.995420] (-) TimerEvent: {}
+[10.096614] (-) TimerEvent: {}
+[10.197658] (-) TimerEvent: {}
+[10.298531] (-) TimerEvent: {}
+[10.399459] (-) TimerEvent: {}
+[10.500394] (-) TimerEvent: {}
+[10.601283] (-) TimerEvent: {}
+[10.702215] (-) TimerEvent: {}
+[10.803184] (-) TimerEvent: {}
+[10.904178] (-) TimerEvent: {}
+[10.928861] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[11.004397] (-) TimerEvent: {}
+[11.105350] (-) TimerEvent: {}
+[11.206287] (-) TimerEvent: {}
+[11.307285] (-) TimerEvent: {}
+[11.408219] (-) TimerEvent: {}
+[11.509190] (-) TimerEvent: {}
+[11.610128] (-) TimerEvent: {}
+[11.711077] (-) TimerEvent: {}
+[11.812007] (-) TimerEvent: {}
+[11.912947] (-) TimerEvent: {}
+[12.013799] (-) TimerEvent: {}
+[12.114727] (-) TimerEvent: {}
+[12.215654] (-) TimerEvent: {}
+[12.316496] (-) TimerEvent: {}
+[12.417450] (-) TimerEvent: {}
+[12.518446] (-) TimerEvent: {}
+[12.619368] (-) TimerEvent: {}
+[12.720311] (-) TimerEvent: {}
+[12.776626] (robot_bringup) StdoutLine: {'line': b'Removing /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)\n'}
+[12.820719] (-) TimerEvent: {}
+[12.921822] (-) TimerEvent: {}
+[13.022837] (-) TimerEvent: {}
+[13.079354] (robot_bringup) CommandEnded: {'returncode': 0}
+[13.086468] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/carlos/ros2_ws/build/robot_bringup/build', 'install', '--record', '/home/carlos/ros2_ws/build/robot_bringup/install.log', '--install-scripts', '$base/lib/robot_bringup', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/carlos/ros2_ws/src/robot_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'carlos', 'SSH_CLIENT': '192.168.0.101 36862 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/carlos', 'OLDPWD': '/home/carlos/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/carlos/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'carlos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/home/carlos/ros2_ws/install/robot_bringup:/home/carlos/ros2_ws/install/mpu6050driver:/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/carlos/ros2_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.101 36862 192.168.0.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/carlos/ros2_ws/install/tank_i2c_driver:/home/carlos/ros2_ws/install/rplidar_ros:/home/carlos/ros2_ws/install/ros2_mpu6050:/home/carlos/ros2_ws/install/mpu6050driver:/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[13.123126] (-) TimerEvent: {}
+[13.224286] (-) TimerEvent: {}
+[13.325457] (-) TimerEvent: {}
+[13.426485] (-) TimerEvent: {}
+[13.527472] (-) TimerEvent: {}
+[13.628441] (-) TimerEvent: {}
+[13.729455] (-) TimerEvent: {}
+[13.830367] (-) TimerEvent: {}
+[13.931374] (-) TimerEvent: {}
+[14.032430] (-) TimerEvent: {}
+[14.133373] (-) TimerEvent: {}
+[14.234328] (-) TimerEvent: {}
+[14.335274] (-) TimerEvent: {}
+[14.436226] (-) TimerEvent: {}
+[14.537188] (-) TimerEvent: {}
+[14.638149] (-) TimerEvent: {}
+[14.739119] (-) TimerEvent: {}
+[14.840066] (-) TimerEvent: {}
+[14.941020] (-) TimerEvent: {}
+[15.042003] (-) TimerEvent: {}
+[15.142933] (-) TimerEvent: {}
+[15.243796] (-) TimerEvent: {}
+[15.344721] (-) TimerEvent: {}
+[15.400917] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[15.444936] (-) TimerEvent: {}
+[15.545792] (-) TimerEvent: {}
+[15.567864] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[15.570042] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[15.572182] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[15.573713] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[15.646017] (-) TimerEvent: {}
+[15.746949] (-) TimerEvent: {}
+[15.847859] (-) TimerEvent: {}
+[15.912991] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[15.921912] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[15.923442] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[15.924798] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[15.926271] (robot_bringup) StdoutLine: {'line': b'creating /home/carlos/ros2_ws/build/robot_bringup/build\n'}
+[15.927620] (robot_bringup) StdoutLine: {'line': b'creating /home/carlos/ros2_ws/build/robot_bringup/build/lib\n'}
+[15.929099] (robot_bringup) StdoutLine: {'line': b'creating /home/carlos/ros2_ws/build/robot_bringup/build/lib/robot_bringup\n'}
+[15.930112] (robot_bringup) StdoutLine: {'line': b'copying robot_bringup/__init__.py -> /home/carlos/ros2_ws/build/robot_bringup/build/lib/robot_bringup\n'}
+[15.931295] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[15.948085] (-) TimerEvent: {}
+[15.987499] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[16.048278] (-) TimerEvent: {}
+[16.149227] (-) TimerEvent: {}
+[16.155864] (robot_bringup) StdoutLine: {'line': b'creating /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup\n'}
+[16.157121] (robot_bringup) StdoutLine: {'line': b'copying /home/carlos/ros2_ws/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup\n'}
+[16.161631] (robot_bringup) StdoutLine: {'line': b'byte-compiling /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc\n'}
+[16.164015] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[16.165196] (robot_bringup) StdoutLine: {'line': b'copying resource/robot_bringup -> /home/carlos/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[16.171221] (robot_bringup) StdoutLine: {'line': b'copying package.xml -> /home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup\n'}
+[16.173230] (robot_bringup) StdoutLine: {'line': b'copying launch/robot.launch.py -> /home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/launch\n'}
+[16.178388] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.249487] (-) TimerEvent: {}
+[16.350447] (-) TimerEvent: {}
+[16.358642] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info\n'}
+[16.370868] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[16.450716] (-) TimerEvent: {}
+[16.551654] (-) TimerEvent: {}
+[16.652628] (-) TimerEvent: {}
+[16.753489] (-) TimerEvent: {}
+[16.854411] (-) TimerEvent: {}
+[16.955356] (-) TimerEvent: {}
+[17.056247] (-) TimerEvent: {}
+[17.157161] (-) TimerEvent: {}
+[17.258144] (-) TimerEvent: {}
+[17.359193] (-) TimerEvent: {}
+[17.460215] (-) TimerEvent: {}
+[17.541324] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/carlos/ros2_ws/build/robot_bringup/install.log'\n"}
+[17.560517] (-) TimerEvent: {}
+[17.661665] (-) TimerEvent: {}
+[17.762716] (-) TimerEvent: {}
+[17.816890] (robot_bringup) CommandEnded: {'returncode': 0}
+[17.863681] (-) TimerEvent: {}
+[17.929062] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[17.934071] (-) EventReactorShutdown: {}

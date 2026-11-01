@@ -1,0 +1,24 @@
+[77.225s] Invoking command in '/home/carlos/ros2_ws/build/robot_bringup': PYTHONPATH=/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/carlos/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[87.868s] running develop
+[99.012s] running egg_info
+[99.014s] creating robot_bringup.egg-info
+[102.168s] writing robot_bringup.egg-info/PKG-INFO
+[102.186s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[102.192s] writing requirements to robot_bringup.egg-info/requires.txt
+[102.197s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[102.202s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[103.364s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[103.375s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[103.882s] running build_ext
+[103.897s] Creating /home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages/robot-bringup.egg-link (link to .)
+[103.913s] 
+[103.915s] Installed /home/carlos/ros2_ws/build/robot_bringup
+[103.917s] running symlink_data
+[103.923s] creating /home/carlos/ros2_ws/install/robot_bringup/share/ament_index
+[103.930s] creating /home/carlos/ros2_ws/install/robot_bringup/share/ament_index/resource_index
+[103.932s] creating /home/carlos/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[103.935s] symbolically linking /home/carlos/ros2_ws/build/robot_bringup/resource/robot_bringup -> /home/carlos/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[103.982s] symbolically linking /home/carlos/ros2_ws/build/robot_bringup/package.xml -> /home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup
+[103.987s] creating /home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[103.994s] symbolically linking /home/carlos/ros2_ws/build/robot_bringup/launch/robot.launch.py -> /home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[105.413s] Invoked command in '/home/carlos/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/carlos/ros2_ws/build/robot_bringup/build --no-deps symlink_data

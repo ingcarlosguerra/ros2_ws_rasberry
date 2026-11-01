@@ -47,7 +47,8 @@ public:
         declare_parameter<int>("i2c_address", 0x34);
         declare_parameter<double>("max_linear_speed", 0.30);
         declare_parameter<double>("max_angular_speed", 6.0);
-        declare_parameter<double>("track_width", 0.10);
+        declare_parameter<double>("track_width", 0.11);
+        declare_parameter<double>("angular_odom_scale", 0.7);
         declare_parameter<double>("wheel_diameter", 0.05);
         declare_parameter<double>("ticks_per_revolution", 1980.0);
         declare_parameter<int>("max_motor_speed", 50);
@@ -58,7 +59,7 @@ public:
         declare_parameter<int>("angular_sign", -1);
         declare_parameter<double>("motor_rate", 30.0);
         declare_parameter<double>("motor_keepalive", 0.10);
-        declare_parameter<double>("encoder_rate", 20.0);
+        declare_parameter<double>("encoder_rate", 100.0);
         declare_parameter<bool>("publish_tf", true);
         declare_parameter<std::string>("odom_frame", "odom");
         declare_parameter<std::string>("base_frame", "base_link");
@@ -96,6 +97,7 @@ public:
         max_delta_ticks_ = get_parameter("max_delta_ticks").as_int();
         read_retries_ = get_parameter("read_retries").as_int();
         reopen_after_failures_ = get_parameter("reopen_after_failures").as_int();
+        angular_odom_scale_ = get_parameter("angular_odom_scale").as_double();
 
         // ---------------- VALIDACIONES ----------------
         if (max_linear_speed_ <= 0.0) throw std::runtime_error("max_linear_speed debe ser > 0");
@@ -190,7 +192,7 @@ private:
     double ticks_per_revolution_, meters_per_tick_;
     int max_motor_speed_, left_motor_sign_, right_motor_sign_;
     int left_encoder_sign_, right_encoder_sign_, angular_sign_;
-    double motor_rate_, motor_keepalive_, encoder_rate_, watchdog_timeout_;
+    double motor_rate_, motor_keepalive_, encoder_rate_, watchdog_timeout_ ,angular_odom_scale_; 
     bool publish_tf_, configure_board_;
     std::string odom_frame_, base_frame_;
     int motor_type_, encoder_polarity_, max_delta_ticks_;
@@ -503,8 +505,11 @@ private:
         double delta_right_m = delta_right * meters_per_tick_;
 
         double delta_s = (delta_left_m + delta_right_m) / 2.0;
-        double delta_theta = ( delta_left_m - delta_right_m ) / track_width_;
-
+        // double delta_theta = ( delta_left_m - delta_right_m ) / track_width_;
+        double delta_theta =
+            ((delta_left_m - delta_right_m) / track_width_)
+            * angular_odom_scale_;
+            
     //     RCLCPP_INFO_THROTTLE(
     // get_logger(), *get_clock(), 500,
     // "dL=%.4f dR=%.4f dtheta=%.4f theta=%.4f",

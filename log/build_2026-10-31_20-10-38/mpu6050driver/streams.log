@@ -1,0 +1,59 @@
+[0.635s] Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mpu6050driver
+[16.502s] -- The C compiler identification is GNU 13.3.0
+[28.404s] -- The CXX compiler identification is GNU 13.3.0
+[28.766s] -- Detecting C compiler ABI info
+[32.960s] -- Detecting C compiler ABI info - done
+[33.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[33.252s] -- Detecting C compile features
+[33.261s] -- Detecting C compile features - done
+[33.680s] -- Detecting CXX compiler ABI info
+[38.439s] -- Detecting CXX compiler ABI info - done
+[38.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[38.739s] -- Detecting CXX compile features
+[38.749s] -- Detecting CXX compile features - done
+[39.585s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[47.630s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[57.678s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[60.537s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[63.595s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[64.458s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[65.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[66.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[69.086s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[69.226s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[71.693s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[71.970s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[72.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[74.788s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[78.736s] -- Configuring done (76.2s)
+[79.267s] -- Generating done (0.3s)
+[79.530s] -- Build files have been written to: /home/carlos/ros2_ws/build/mpu6050driver
+[80.079s] Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mpu6050driver
+[80.115s] Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mpu6050driver -- -j4 -l4
+[82.254s] [ 33%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050driver.cpp.o[0m
+[1360.537s] [ 66%] [32mBuilding CXX object CMakeFiles/mpu6050driver.dir/src/mpu6050sensor.cpp.o[0m
+[1368.766s] [100%] [32m[1mLinking CXX executable mpu6050driver[0m
+[1376.284s] [100%] Built target mpu6050driver
+[1378.114s] Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mpu6050driver -- -j4 -l4
+[1379.182s] Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mpu6050driver
+[1379.497s] -- Install configuration: ""
+[1379.505s] -- Execute custom install script
+[1379.511s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/lib/mpu6050driver/mpu6050driver
+[1379.636s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver//launch/mpu6050driver_launch.py
+[1379.745s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver//params/mpu6050.yaml
+[1379.865s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/package_run_dependencies/mpu6050driver
+[1379.978s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/parent_prefix_path/mpu6050driver
+[1380.098s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.sh
+[1380.209s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/ament_prefix_path.dsv
+[1380.317s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.sh
+[1380.448s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/environment/path.dsv
+[1380.654s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.bash
+[1380.944s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.sh
+[1381.180s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.zsh
+[1381.416s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/local_setup.dsv
+[1381.645s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv
+[1381.875s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/ament_index/resource_index/packages/mpu6050driver
+[1382.104s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig.cmake
+[1382.337s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/cmake/mpu6050driverConfig-version.cmake
+[1382.561s] -- Symlinking: /home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.xml
+[1382.839s] Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mpu6050driver

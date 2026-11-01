@@ -1,0 +1,1 @@
+/home/carlos/ros2_ws/build/mpu6050driver/ament_cmake_environment_hooks/local_setup.bash

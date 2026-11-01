@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001586] (-) JobUnselected: {'identifier': 'robot_bringup'}
-[0.002535] (-) JobUnselected: {'identifier': 'ros2_mpu6050'}
-[0.005209] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.005616] (-) JobUnselected: {'identifier': 'tank_i2c_driver'}
-[0.005982] (-) EventReactorShutdown: {}

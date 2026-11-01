@@ -1,0 +1,339 @@
+[3.582s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.583s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9067bf20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff90858c50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff90858c50>>, mixin_verb=('build',))
+[4.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.683s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carlos/ros2_ws'
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.629s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.633s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[5.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[5.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[5.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[5.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[5.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extensions ['ignore', 'ignore_ament_install']
+[5.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extension 'ignore'
+[5.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extension 'ignore_ament_install'
+[5.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extensions ['colcon_pkg']
+[5.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extension 'colcon_pkg'
+[5.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extensions ['colcon_meta']
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extension 'colcon_meta'
+[5.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extensions ['ros']
+[5.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050_driver) by extension 'ros'
+[5.768s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mpu6050_driver' with type 'ros.ament_cmake' and name 'mpu6050driver'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[5.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[5.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[5.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[5.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[5.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[5.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[5.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[5.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[5.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['ignore', 'ignore_ament_install']
+[5.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ignore'
+[5.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ignore_ament_install'
+[5.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['colcon_pkg']
+[5.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'colcon_pkg'
+[5.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['colcon_meta']
+[5.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'colcon_meta'
+[5.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extensions ['ros']
+[5.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/tank_i2c_driver) by extension 'ros'
+[5.824s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tank_i2c_driver' with type 'ros.ament_cmake' and name 'tank_i2c_driver'
+[5.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.356s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/tank_i2c_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.358s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/rplidar_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.359s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/ros2_mpu6050' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.361s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.362s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/mpu6050driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.364s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.370s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/carlos/ros2_ws/install/tank_i2c_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.371s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/carlos/ros2_ws/install/rplidar_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.372s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/carlos/ros2_ws/install/ros2_mpu6050' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.374s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/carlos/ros2_ws/install/mpu6050driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.375s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/carlos/ros2_ws/install/mpu6050_imu_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/carlos/ros2_ws/install
+[6.453s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/jazzy
+[6.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.404s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_args' from command line to 'None'
+[8.405s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_target' from command line to 'None'
+[8.406s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.407s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_clean_cache' from command line to 'False'
+[8.407s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_clean_first' from command line to 'False'
+[8.407s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'cmake_force_configure' from command line to 'False'
+[8.408s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'ament_cmake_args' from command line to 'None'
+[8.408s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'catkin_cmake_args' from command line to 'None'
+[8.409s] Level 5:colcon.colcon_core.verb:set package 'mpu6050driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.410s] DEBUG:colcon.colcon_core.verb:Building package 'mpu6050driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/mpu6050driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/mpu6050driver', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/ros2_mpu6050_driver', 'symlink_install': True, 'test_result_base': None}
+[8.416s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[8.416s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[8.417s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.418s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[8.419s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[8.419s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[8.420s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[8.421s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[8.422s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.423s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[8.429s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[8.430s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[8.431s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.432s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[8.432s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[8.433s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[8.433s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[8.434s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[8.435s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.435s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[8.441s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_args' from command line to 'None'
+[8.442s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_target' from command line to 'None'
+[8.443s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.443s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[8.444s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_clean_first' from command line to 'False'
+[8.444s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'cmake_force_configure' from command line to 'False'
+[8.445s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'ament_cmake_args' from command line to 'None'
+[8.446s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[8.446s] Level 5:colcon.colcon_core.verb:set package 'tank_i2c_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.447s] DEBUG:colcon.colcon_core.verb:Building package 'tank_i2c_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carlos/ros2_ws/build/tank_i2c_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carlos/ros2_ws/install/tank_i2c_driver', 'merge_install': False, 'path': '/home/carlos/ros2_ws/src/tank_i2c_driver', 'symlink_install': True, 'test_result_base': None}
+[8.449s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carlos/ros2_ws/src/ros2_mpu6050_driver' with build type 'ament_cmake'
+[8.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carlos/ros2_ws/src/ros2_mpu6050_driver'
+[8.545s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.652s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/carlos/ros2_ws/src/robot_bringup' with build type 'ament_python'
+[8.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[8.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[8.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[8.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[8.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.814s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carlos/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[8.819s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carlos/ros2_ws/src/rplidar_ros'
+[8.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.926s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/carlos/ros2_ws/src/tank_i2c_driver' with build type 'ament_cmake'
+[8.928s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/carlos/ros2_ws/src/tank_i2c_driver'
+[8.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mpu6050driver
+[24.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/carlos/ros2_ws/src/robot_bringup'
+[24.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/rplidar_ros
+[25.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[77.588s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist, easy_install, bdist_dumb, bdist_rpm, build_py, alias, install, develop, build_clib, clean, dist_info, setopt, test, compile_catalog, install_headers, build_scripts, init_catalog, bdist_egg, saveopts, update_catalog, register, extract_messages, rotate, install_data, egg_info, install_scripts, build, install_lib, sdist, check, editable_wheel, symlink_data, build_ext, upload_docs, upload, install_egg_info
+[85.820s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --site-dirs, --version, --zip-ok, --install-layout, --upgrade, --dry-run, --prefix, --no-find-links, --egg-path, --local-snapshots-ok, --always-unzip, --allow-hosts, --editable, --script-dir, --install-dir, --find-links, --user, --uninstall, --multi-version, --build-directory, --no-user-cfg, --always-copy, --index-url, --quiet, --help, --optimize, --exclude-scripts, --record, --verbose, --force-installation-into-system-dir
+[85.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/robot_bringup': PYTHONPATH=/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/carlos/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[88.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/ros2_mpu6050_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/mpu6050driver
+[88.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mpu6050driver -- -j4 -l4
+[89.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/rplidar_ros
+[89.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/rplidar_ros -- -j4 -l4
+[96.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake /home/carlos/ros2_ws/src/tank_i2c_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/tank_i2c_driver
+[96.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[114.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/carlos/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/carlos/ros2_ws/build/robot_bringup/build --no-deps symlink_data
+[114.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath_develop')
+[114.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.ps1'
+[115.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.dsv'
+[115.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.sh'
+[115.760s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup' for CMake module files
+[115.780s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup' for CMake config files
+[115.910s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup/lib'
+[115.919s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup/bin'
+[115.923s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[116.234s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup/lib/python3.12/site-packages'
+[117.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[117.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[117.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[117.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[117.225s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/robot_bringup/bin'
+[117.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[117.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[117.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[117.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[117.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[117.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[117.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1386.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/mpu6050driver -- -j4 -l4
+[1387.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/mpu6050driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mpu6050driver
+[1391.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/mpu6050driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/mpu6050driver
+[1391.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050driver)
+[1391.533s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver' for CMake module files
+[1391.591s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver' for CMake config files
+[1391.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050driver', 'cmake_prefix_path')
+[1391.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.ps1'
+[1391.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.dsv'
+[1391.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.sh'
+[1392.096s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib'
+[1392.106s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/bin'
+[1392.115s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib/pkgconfig/mpu6050driver.pc'
+[1392.211s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib/python3.12/site-packages'
+[1392.221s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/bin'
+[1392.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.ps1'
+[1392.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv'
+[1392.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.sh'
+[1392.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.bash'
+[1392.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.zsh'
+[1392.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/mpu6050driver/share/colcon-core/packages/mpu6050driver)
+[1392.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6050driver)
+[1392.436s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver' for CMake module files
+[1392.445s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver' for CMake config files
+[1392.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050driver', 'cmake_prefix_path')
+[1392.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.ps1'
+[1392.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.dsv'
+[1392.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/hook/cmake_prefix_path.sh'
+[1392.482s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib'
+[1392.483s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/bin'
+[1392.485s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib/pkgconfig/mpu6050driver.pc'
+[1392.487s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/lib/python3.12/site-packages'
+[1392.491s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/mpu6050driver/bin'
+[1392.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.ps1'
+[1392.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.dsv'
+[1392.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.sh'
+[1392.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.bash'
+[1392.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/mpu6050driver/share/mpu6050driver/package.zsh'
+[1392.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/mpu6050driver/share/colcon-core/packages/mpu6050driver)
+[2092.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/tank_i2c_driver -- -j4 -l4
+[2092.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/tank_i2c_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[2095.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/tank_i2c_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/tank_i2c_driver
+[2095.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tank_i2c_driver)
+[2095.826s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake module files
+[2095.867s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake config files
+[2095.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('tank_i2c_driver', 'cmake_prefix_path')
+[2095.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.ps1'
+[2096.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.dsv'
+[2096.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.sh'
+[2096.251s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib'
+[2096.257s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[2096.261s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/pkgconfig/tank_i2c_driver.pc'
+[2096.365s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/python3.12/site-packages'
+[2096.370s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[2096.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.ps1'
+[2096.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv'
+[2096.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.sh'
+[2096.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.bash'
+[2096.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.zsh'
+[2096.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/tank_i2c_driver/share/colcon-core/packages/tank_i2c_driver)
+[2096.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tank_i2c_driver)
+[2096.555s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake module files
+[2096.564s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver' for CMake config files
+[2096.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('tank_i2c_driver', 'cmake_prefix_path')
+[2096.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.ps1'
+[2096.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.dsv'
+[2096.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/hook/cmake_prefix_path.sh'
+[2096.589s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib'
+[2096.590s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[2096.591s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/pkgconfig/tank_i2c_driver.pc'
+[2096.593s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/lib/python3.12/site-packages'
+[2096.597s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/tank_i2c_driver/bin'
+[2096.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.ps1'
+[2096.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.dsv'
+[2096.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.sh'
+[2096.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.bash'
+[2096.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/tank_i2c_driver/share/tank_i2c_driver/package.zsh'
+[2096.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/tank_i2c_driver/share/colcon-core/packages/tank_i2c_driver)
+[2121.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/carlos/ros2_ws/build/rplidar_ros -- -j4 -l4
+[2121.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carlos/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/rplidar_ros
+[2124.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[2124.981s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros' for CMake module files
+[2124.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carlos/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/carlos/ros2_ws/install/robot_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/carlos/ros2_ws/build/rplidar_ros
+[2124.989s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros' for CMake config files
+[2124.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[2124.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[2125.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[2125.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[2125.014s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib'
+[2125.015s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/bin'
+[2125.016s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[2125.018s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[2125.022s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/bin'
+[2125.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[2125.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[2125.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[2125.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[2125.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[2125.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[2125.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[2125.071s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros' for CMake module files
+[2125.079s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros' for CMake config files
+[2125.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[2125.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[2125.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[2125.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[2125.102s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib'
+[2125.104s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/bin'
+[2125.105s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[2125.107s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[2125.110s] Level 1:colcon.colcon_core.environment:checking '/home/carlos/ros2_ws/install/rplidar_ros/bin'
+[2125.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[2125.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[2125.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[2125.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[2125.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/carlos/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[2125.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carlos/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[2125.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2125.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2125.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2125.292s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2125.371s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2125.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.ps1'
+[2125.414s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_ps1.py'
+[2125.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.ps1'
+[2125.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.sh'
+[2125.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carlos/ros2_ws/install/_local_setup_util_sh.py'
+[2125.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.sh'
+[2125.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.bash'
+[2125.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.bash'
+[2125.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carlos/ros2_ws/install/local_setup.zsh'
+[2125.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carlos/ros2_ws/install/setup.zsh'

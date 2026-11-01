@@ -8,11 +8,16 @@ import os
 
 def generate_launch_description():
 
+
     # IMU MPU6050
-    imu_node = Node(
-        package='ros2_mpu6050',
-        executable='ros2_mpu6050',
-        output='screen'
+    imu_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory('mpu6050driver'),
+                'launch',
+                'mpu6050driver_launch.py'
+            )
+        )
     )
 
     # LiDAR RPLidar C1
@@ -37,8 +42,28 @@ def generate_launch_description():
         )
     )
 
+    # Robot Localization EKF
+    ekf_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[
+            os.path.join(
+                get_package_share_directory('robot_localization'),
+                'params',
+                'ekf.yaml'
+            )
+        ],
+        remappings=[
+            ('odometry/filtered', '/odometry/filtered')
+        ]
+    )
+
+
     return LaunchDescription([
-        imu_node,
+        imu_launch,
         lidar_launch,
-        tank_launch
+        tank_launch,
+        ekf_node,
     ])
